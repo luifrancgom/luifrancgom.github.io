@@ -19,8 +19,9 @@ website:
     location: navbar
     type: textbox
     limit: 20
-  twitter-card: 
+  twitter-card: images/fox_gold.png 
     title: "Luis Francisco Gómez López"
+    image: 
     creator: "@luifrancgom"
     site: "@luifrancgom"
   navbar:
