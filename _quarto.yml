@@ -22,9 +22,15 @@ website:
   twitter-card: 
     title: "Luis Francisco Gómez López"
     image: images/fox_gold.png
+    image-alt: "A circle logo featuring a gold fox design"
     card-style: summary_large_image
     creator: "@luifrancgom"
     site: "@luifrancgom"
+  open-graph: 
+    title: "Luis Francisco Gómez López"
+    image: images/fox_gold.png
+    locale: en_US
+    site-name: "luifrancgom"
   navbar:
     title: "Luis Francisco Gómez López"
     logo: images/fox_gold.png
