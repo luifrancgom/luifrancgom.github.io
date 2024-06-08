@@ -7,9 +7,16 @@
     "text": "Pending\n(Hyndman & Fan, 1996)\n\n\n\n\nReferences\n\nHyndman, R. J., & Fan, Y. (1996). Sample Quantiles in Statistical Packages. The American Statistician, 50(4), 361–365. https://doi.org/10.2307/2684934"
   },
   {
-    "objectID": "docs/tales/index.html",
-    "href": "docs/tales/index.html",
-    "title": "Tales",
+    "objectID": "docs/cv/index.html",
+    "href": "docs/cv/index.html",
+    "title": "CV",
+    "section": "",
+    "text": "Pending"
+  },
+  {
+    "objectID": "docs/teaching/index.html",
+    "href": "docs/teaching/index.html",
+    "title": "Teaching",
     "section": "",
     "text": "Pending"
   },
@@ -28,9 +35,9 @@
     "text": "Pending"
   },
   {
-    "objectID": "docs/cv/index.html",
-    "href": "docs/cv/index.html",
-    "title": "CV",
+    "objectID": "docs/tales/index.html",
+    "href": "docs/tales/index.html",
+    "title": "Tales",
     "section": "",
     "text": "Pending"
   },
@@ -38,13 +45,6 @@
     "objectID": "docs/projects/index.html",
     "href": "docs/projects/index.html",
     "title": "Projects",
-    "section": "",
-    "text": "Pending"
-  },
-  {
-    "objectID": "docs/teaching/index.html",
-    "href": "docs/teaching/index.html",
-    "title": "Teaching",
     "section": "",
     "text": "Pending"
   }
