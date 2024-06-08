@@ -1,5 +1,15 @@
 /* css styles */
 
+/* header */
+#quarto-header {
+  border: 0.01px solid #bbbbbbbb; 
+}
+
+/* footer */
+.footer {
+  border: 0.01px solid #bbbbbbbb;  
+}
+
 .faux-block {
   display: block;
   padding-bottom: 0.4em;
