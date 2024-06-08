@@ -19,6 +19,9 @@ website:
     location: navbar
     type: textbox
     limit: 20
+  twitter-card: 
+    creator: "@luifrancgom"
+    site: "@luifrancgom"
   navbar:
     title: "Luis Francisco Gómez López"
     logo: images/fox_gold.png
@@ -94,6 +97,8 @@ format:
     theme: cosmo
     css: css/styles.css
     toc: false
+    code-copy: true
+    code-overflow: wrap
     bibliography: bibliography/luifrancgom_github_io.bib
     csl: bibliography/apa_7_edition.csl
 
