@@ -84,7 +84,7 @@ format:
     theme: cosmo
     css: css/styles.css
     toc: true
-    bibliography: bibliography/luifrancgom.github.i.bib
+    bibliography: bibliography/luifrancgom.github.io.bib
     csl: bibliography/apa_7_edition.csl
 
 editor: visual
