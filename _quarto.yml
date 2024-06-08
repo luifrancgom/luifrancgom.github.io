@@ -77,7 +77,7 @@ website:
       <span class="faux-block">Build with {{< fa brands r-project >}} and <a href="https://quarto.org/" target="_blank" rel="noopener noreferrer">Quarto</a></span>
 
 execute: 
-  freeze: true
+  freeze: auto
     
 format:
   html:
