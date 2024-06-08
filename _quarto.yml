@@ -22,6 +22,7 @@ website:
   twitter-card: 
     title: "Luis Francisco Gómez López"
     image: images/fox_gold.png
+    card-style: summary_large_image
     creator: "@luifrancgom"
     site: "@luifrancgom"
   navbar:
