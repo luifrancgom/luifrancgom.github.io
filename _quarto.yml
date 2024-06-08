@@ -21,7 +21,6 @@ website:
     limit: 20
   twitter-card: 
     title: "Luis Francisco Gómez López"
-    description: "Luis Francisco Gómez López personal website"
     creator: "@luifrancgom"
     site: "@luifrancgom"
   navbar:
