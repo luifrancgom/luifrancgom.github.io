@@ -10,3 +10,4 @@ Also, if you want some inspiration and to inspect the source code, check out:
 -  https://www.andrewheiss.com/
 -  https://www.marvinschmitt.com/
 -  https://quarto.org/
+-  https://robjhyndman.com/
