@@ -20,6 +20,7 @@ website:
     type: textbox
     limit: 20
   twitter-card: 
+    title: Luis Francisco Gómez López
     creator: "@luifrancgom"
     site: "@luifrancgom"
   navbar:
