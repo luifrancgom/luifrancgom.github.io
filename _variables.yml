@@ -1,0 +1,23 @@
+
+site:
+  url: https://luifrancgom.github.io/
+  repo: https://github.com/luifrancgom/luifrancgom.github.io
+
+social-network:
+  twitter: https://twitter.com/luifrancgom/
+  youtube: https://www.youtube.com/@luifrancgom
+  linkedin: https://www.linkedin.com/in/luifrancgom
+  github: https://github.com/luifrancgom
+  stack-overflow: https://stackoverflow.com/users/11192275/luifrancgom
+  orcid: https://orcid.org/0000-0002-2877-9015
+  orcid-number: "0000-0002-2877-9015" 
+
+email:
+  personal: luifrancgom@gmail
+  work: luis.gomezl@unimilitar.edu.co
+
+source-code:
+  github: https://github.com/luifrancgom/luifrancgom.github.io
+
+copyright:
+  year: 2024

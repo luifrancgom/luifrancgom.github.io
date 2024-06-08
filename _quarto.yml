@@ -12,6 +12,8 @@ project:
 website:
   title: "Luis Francisco Gómez López (aka luifrancgom)"
   description: "Economist interested in Data Science | Learning: Statistical Learning, R-πthon, Microeconomics and Macroeconomics"
+  site-url: https://luifrancgom.github.io/
+  repo-url: https://github.com/luifrancgom/luifrancgom.github.io
   favicon: images/fox_gold.png
   search:
     location: navbar
@@ -72,6 +74,14 @@ website:
     collapse-below: lg
   page-navigation: true
   page-footer:
+    background: "#f8f9fa"
+    foreground: "#545555"
+    left: |
+      <span class="faux-block">{{< fa brands creative-commons >}} {{< var copyright.year >}} Luis Francisco Gómez López</span>
+      <span class="faux-block">Licensed under {{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons CC BY 4.0</a></span>
+      <span class="faux-block"> {{< fa brands github >}} <a href="https://github.com/luifrancgom/luifrancgom.github.io" target="_blank" rel="noopener noreferrer">Source code</a></span>
+    center: |
+      <span class="faux-block">{{< fa brands orcid >}} <strong>ORCID</strong> <a href="https://orcid.org/0000-0002-2877-9015" target="_blank" rel="noopener noreferrer">0000-0002-2877-9015</a></span>
     right: |
       <span class="faux-block"> Designed with {{< fa heart >}} and {{< fa brain >}} </span>
       <span class="faux-block">Build with {{< fa brands r-project >}} and <a href="https://quarto.org/" target="_blank" rel="noopener noreferrer">Quarto</a></span>
