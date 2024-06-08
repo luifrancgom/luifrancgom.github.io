@@ -1,0 +1,90 @@
+project:
+  type: website
+  execute-dir: file
+  output-dir: _site
+  preview: 
+    port: 3000
+    host: 127.0.0.1
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+website:
+  title: "Luis Francisco Gómez López (aka luifrancgom)"
+  description: "Economist interested in Data Science | Learning: Statistical Learning, R-πthon, Microeconomics and Macroeconomics"
+  favicon: images/fox_gold.png
+  search:
+    location: navbar
+    type: textbox
+    limit: 20
+  navbar:
+    title: "Luis Francisco Gómez López"
+    logo: images/fox_gold.png
+    logo-alt: "A circle logo featuring a gold fox design"
+    background: "#f8f9fa"
+    foreground: "#545555"
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "CV"
+        href: docs/cv/index.qmd
+      - text: "Blog"
+        href: docs/blog/index.qmd
+      - text: "Teaching"
+        href: docs/teaching/index.qmd
+      - text: "Projects"
+        href: docs/projects/index.qmd
+      - text: "Tales"
+        href: docs/tales/index.qmd
+      - text: "Personal"
+        href: docs/personal/index.qmd
+    right: 
+      - icon: twitter
+        href: https://twitter.com/luifrancgom/
+        aria-label: "Link to luifrancgom Twitter"
+        target: _blank
+        rel: noopener noreferrer
+      - icon: youtube
+        href: https://www.youtube.com/@luifrancgom
+        aria-label: "Link to luifrancgom Youtube"
+        target: _blank
+        rel: noopener noreferrer
+      - icon: linkedin
+        href: https://www.linkedin.com/in/luifrancgom
+        aria-label: "Link to luifrancgom LinkedIn"
+        target: _blank
+        rel: noopener noreferrer
+      - icon: github
+        href: https://github.com/luifrancgom
+        aria-label: "Link to luifrancgom Github"
+        target: _blank
+        rel: noopener noreferrer
+      - icon: stack-overflow
+        href: https://stackoverflow.com/users/11192275/luifrancgom
+        aria-label: "Link to luifrancgom Stack Overflow"
+        target: _blank
+        rel: noopener noreferrer
+      - icon: envelope-at
+        href: mailto:luifrancgom@gmail.com
+        aria-label: "Send email to luifrancgom"
+    pinned: false
+    collapse: true
+    collapse-below: lg
+  page-navigation: true
+  page-footer:
+    right: |
+      <span class="faux-block"> Designed with {{< fa heart >}} and {{< fa brain >}} </span>
+      <span class="faux-block">Build with {{< fa brands r-project >}} and <a href="https://quarto.org/" target="_blank" rel="noopener noreferrer">Quarto</a></span>
+
+execute: 
+  freeze: true
+    
+format:
+  html:
+    theme: cosmo
+    css: css/styles.css
+    toc: true
+    bibliography: bibliography/luifrancgom.github.i.bib
+    csl: bibliography/apa_7_edition.csl
+
+editor: visual
