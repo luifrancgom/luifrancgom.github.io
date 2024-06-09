@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Luis Francisco Gómez López (aka luifrancgom) - Home</title>
+<title>Luis Francisco Gómez López (aka luifrancgom)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,27 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -54,7 +34,6 @@ div.csl-indent {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -62,6 +41,7 @@ div.csl-indent {
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -89,24 +69,47 @@ div.csl-indent {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="css/styles.css">
 <meta property="og:title" content="Luis Francisco Gómez López">
-<meta property="og:description" content="Economist interested in Data Science | Learning: Statistical Learning, R-πthon, Microeconomics and Macroeconomics">
-<meta property="og:image" content="https://luifrancgom.github.io/images/fox_gold.png">
+<meta property="og:image" content="https://luifrancgom.github.io/images/luifrancgom.jpg">
 <meta property="og:site_name" content="luifrancgom">
 <meta property="og:locale" content="en_US">
-<meta property="og:image:height" content="355">
-<meta property="og:image:width" content="354">
 <meta name="twitter:title" content="Luis Francisco Gómez López">
-<meta name="twitter:description" content="Economist interested in Data Science | Learning: Statistical Learning, R-πthon, Microeconomics and Macroeconomics">
-<meta name="twitter:image" content="https://luifrancgom.github.io/images/fox_gold.png">
+<meta name="twitter:image" content="https://luifrancgom.github.io/images/luifrancgom.jpg">
 <meta name="twitter:image:alt" content="A circle logo featuring a gold fox design">
 <meta name="twitter:creator" content="@luifrancgom">
 <meta name="twitter:site" content="@luifrancgom">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image-height" content="355">
-<meta name="twitter:image-width" content="354">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -202,38 +205,22 @@ div.csl-indent {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Home</h1>
+<div class="quarto-about-jolla content">
+  <img src="images/luifrancgom.jpg" class="about-image
+  rectangle " style="width: 25em;">
+ <main class="content" id="quarto-document-content">
+<section id="hi-im-pacho-or-chico" class="level3">
+<h3 data-anchor-id="hi-im-pacho-or-chico">Hi, I’m Pacho <iconify-icon inline="" icon="flag:co-4x3" aria-label="Icon co-4x3 from flag Iconify.design set." title="Icon co-4x3 from flag Iconify.design set."></iconify-icon> or Chico <iconify-icon inline="" icon="flag:br-4x3" aria-label="Icon br-4x3 from flag Iconify.design set." title="Icon br-4x3 from flag Iconify.design set."></iconify-icon></h3>
+<div id="about-luifrancgom">
+<p>I’m an economist interested in data science. Nowadays, I’m learning statistical learning, <span class="math inline">\(\rho\)</span>-<i class="fa-brands fa-r-project" aria-label="r-project"></i> and <span class="math inline">\(\pi\)</span>-<i class="fa-brands fa-python" aria-label="python"></i>, micro and macro economics.</p>
+<p>I’m also a professor in the undergraduate Business Administration academic program at the Distance Learning Faculty at <a href="https://www.umng.edu.co/inicio">Universidad Militar Nueva Granada</a> (Cajicá, Colombia)</p>
 </div>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>Pending</p>
-<p><span class="citation" data-cites="hyndman_sample_1996">(<a href="#ref-hyndman_sample_1996" role="doc-biblioref">Hyndman &amp; Fan, 1996</a>)</span></p>
-
-
-
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
-<div id="ref-hyndman_sample_1996" class="csl-entry" role="listitem">
-Hyndman, R. J., &amp; Fan, Y. (1996). Sample <span>Quantiles</span> in <span>Statistical</span> <span>Packages</span>. <em>The American Statistician</em>, <em>50</em>(4), 361–365. <a href="https://doi.org/10.2307/2684934">https://doi.org/10.2307/2684934</a>
+</section>
+</main>  
 </div>
-</div></section></div></main> <!-- /main -->
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -254,13 +241,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -653,7 +633,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <p><span class="faux-block"><i class="fa-brands fa-orcid" aria-label="orcid"></i> <strong>ORCID</strong> <a href="https://orcid.org/0000-0002-2877-9015" target="_blank" rel="noopener noreferrer">0000-0002-2877-9015</a></span></p>
 </div>
     <div class="nav-footer-right">
-<p><span class="faux-block"> Designed with <i class="fa-solid fa-heart" aria-label="heart"></i> and <i class="fa-solid fa-brain" aria-label="brain"></i> </span> <span class="faux-block">Build with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/" target="_blank" rel="noopener noreferrer">Quarto</a></span></p>
+<p><span class="faux-block"> Designed with <i class="fa-solid fa-heart" aria-label="heart"></i> and <i class="fa-solid fa-brain" aria-label="brain"></i> </span> <span class="faux-block">Build with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <iconify-icon inline="" icon="simple-icons:quarto" aria-label="Icon quarto from simple-icons Iconify.design set." title="Icon quarto from simple-icons Iconify.design set."></iconify-icon></span></p>
 </div>
   </div>
 </footer>
