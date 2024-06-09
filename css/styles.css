@@ -2,15 +2,20 @@
 
 /* header */
 #quarto-header {
-  border: 0.01px solid #bbbbbbbb; 
+  border: 0.5px solid #bbbbbbbb; 
 }
 
 /* footer */
 .footer {
-  border: 0.01px solid #bbbbbbbb;  
+  border: 0.5px solid #bbbbbbbb;
 }
 
 .faux-block {
   display: block;
   padding-bottom: 0.4em;
+}
+
+/* paragraph */
+.quarto-about-jolla p {
+  text-align: justify;
 }

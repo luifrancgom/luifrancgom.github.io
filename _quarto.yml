@@ -96,7 +96,7 @@ website:
       <span class="faux-block">{{< fa brands orcid >}} <strong>ORCID</strong> <a href="https://orcid.org/0000-0002-2877-9015" target="_blank" rel="noopener noreferrer">0000-0002-2877-9015</a></span>
     right: |
       <span class="faux-block"> Designed with {{< fa heart >}} and {{< fa brain >}} </span>
-      <span class="faux-block">Build with {{< fa brands r-project >}} and <a href="https://quarto.org/" target="_blank" rel="noopener noreferrer">Quarto</a></span>
+      <span class="faux-block">Build with {{< fa brands r-project >}} and {{< iconify simple-icons:quarto >}}</span>
 
 execute: 
   freeze: auto

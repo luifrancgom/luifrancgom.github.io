@@ -4,7 +4,6 @@ title: 404 Not Found
 
 ### Lost your way :( ?
 
-It seems this page has vanished into thin air,
-just like the Cheshire Cat {{< fa cat >}}.
+It seems this page has vanished into thin air, just like the Cheshire Cat {{< fa cat >}}.
 
-Return to the [homepage](index.qmd) or try using the {{< fa magnifying-glass >}} **search button** at the top of the page
+Return to [Home](index.qmd) or try using the {{< fa magnifying-glass >}} **search button** at the top of the page

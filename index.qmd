@@ -1,7 +1,17 @@
 ---
-title: "Home"
+image: images/luifrancgom.jpg
+about: 
+  template: jolla
+  image-shape: rectangle
+  image-width: 25em
 ---
 
-Pending
+### Hi, I'm Pacho {{< iconify flag co-4x3 >}} or Chico {{< iconify flag br-4x3 >}}
 
-[@hyndman_sample_1996]
+::: {#about-luifrancgom}
+
+I'm an economist interested in data science. Nowadays, I'm learning statistical learning, $\rho$-{{< fa brands r-project >}} and $\pi$-{{< fa brands python >}}, micro and macro economics. 
+
+I'm also a professor in the undergraduate Business Administration academic program at the Distance Learning Faculty at [Universidad Militar Nueva Granada](https://www.umng.edu.co/inicio) (Cajicá, Colombia)
+
+:::
