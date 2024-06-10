@@ -8,8 +8,6 @@ about:
 
 ### Hello Universe! I'm Pacho {{< iconify flag co-4x3 >}}, Chico {{< iconify flag br-4x3 >}}, Paco {{< iconify flag es-4x3 >}} or Pancho {{< iconify flag mx-4x3 >}}
 
-::: {#about-luifrancgom}
 I'm an economist interested in data science. Nowadays, I'm learning statistical learning, $\Re$ ({{< fa brands r-project >}}) and $\pi$-thon ({{< fa brands python >}}), micro and macro economics.
 
 I'm also a professor in the undergraduate Business Administration academic program at the Distance Learning Faculty at <a href="https://www.umng.edu.co/inicio" target="_blank" rel="noopener noreferrer">Universidad Militar Nueva Granada</a> (Cajicá, Colombia)
-:::
