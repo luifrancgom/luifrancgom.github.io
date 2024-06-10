@@ -5,9 +5,15 @@
   border: 0.5px solid #bbbbbbbb; 
 }
 
-/* home page */
+/* Quarto content container */
 #quarto-content {
  background-color: #f0f5f9; 
+}
+
+/* Curriculum vitae */
+.cv-date {
+  float: right;
+  font-style: italic
 }
 
 /* footer */
