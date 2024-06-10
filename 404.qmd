@@ -6,4 +6,4 @@ title: 404 Not Found
 
 It seems this page has vanished into thin air, just like the Cheshire Cat {{< fa cat >}}.
 
-Return to [Home](index.qmd) or try using the {{< fa magnifying-glass >}} **search button** at the top of the page
+Return to [Home](index.qmd) or try using the {{< fa magnifying-glass >}} **search button** at the top rightof the page
