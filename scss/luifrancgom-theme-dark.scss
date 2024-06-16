@@ -1,0 +1,61 @@
+/*-- scss:defaults --*/
+
+// Colors
+$dark-black-blue: #212529;
+$bright-orange: #d96e34;
+$light-grayish-orange: #faf0e3;
+$gray: #bbbbbb;
+$content-bg: #170c3a;
+
+// Navigation
+$navbar-bg: $dark-black-blue;
+$navbar-fg: $bright-orange;
+$footer-bg: $dark-black-blue;
+$footer-fg: $bright-orange;
+$border-style: 0.5px solid $gray;
+
+/*-- scss:rules --*/
+
+// Header
+#quarto-header {
+  border-bottom: $border-style;
+  border-top: $border-style; 
+}
+
+// Quarto Content Container
+#quarto-content {
+ color: $light-grayish-orange;
+ background-color: $content-bg;
+ 
+ a {
+   color: $bright-orange !important; 
+   &:hover { 
+     color: darken($bright-orange, 10%) !important;
+   }
+   &:visited { 
+     color: lighten($bright-orange, 20%) !important;
+   }
+ }
+}
+
+// Paragraph About
+.quarto-about-jolla p {
+  text-align: justify;
+}
+
+// Curriculum Vitae
+.cv-date {
+  float: right;
+  font-style: italic
+}
+
+// Footer
+.footer {
+  border-bottom: $border-style;
+  border-top: $border-style;
+}
+
+.faux-block {
+  display: block;
+  padding-bottom: 0.4em;
+}

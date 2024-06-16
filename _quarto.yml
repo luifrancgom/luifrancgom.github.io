@@ -35,8 +35,6 @@ website:
     title: "Luis Francisco Gómez López"
     logo: images/fox_gold.png
     logo-alt: "A circle logo featuring a gold fox design"
-    background: "#f8f9fa"
-    foreground: "#545555"
     left:
       - text: "Home"
         href: index.qmd
@@ -54,7 +52,7 @@ website:
         href: docs/personal/index.qmd
     right: 
       - icon: twitter
-        href: https://twitter.com/luifrancgom/
+        href: "{{< var social-network.twitter >}}"
         aria-label: "Link to luifrancgom Twitter"
         target: _blank
         rel: noopener noreferrer
@@ -64,30 +62,28 @@ website:
         target: _blank
         rel: noopener noreferrer
       - icon: linkedin
-        href: https://www.linkedin.com/in/luifrancgom
+        href: "{{< var social-network.linkedin >}}"
         aria-label: "Link to luifrancgom LinkedIn"
         target: _blank
         rel: noopener noreferrer
       - icon: github
-        href: https://github.com/luifrancgom
+        href: "{{< var social-network.github >}}"
         aria-label: "Link to luifrancgom Github"
         target: _blank
         rel: noopener noreferrer
       - icon: stack-overflow
-        href: https://stackoverflow.com/users/11192275/luifrancgom
+        href: "{{< var social-network.stack-overflow >}}"
         aria-label: "Link to luifrancgom Stack Overflow"
         target: _blank
         rel: noopener noreferrer
       - icon: envelope-at
-        href: mailto:luifrancgom@gmail.com
+        href: "mailto:{{< var email.personal >}}"
         aria-label: "Send email to luifrancgom"
     pinned: false
     collapse: true
     collapse-below: lg
   page-navigation: true
   page-footer:
-    background: "#f8f9fa"
-    foreground: "#545555"
     left: |
       <span class="faux-block">{{< fa brands creative-commons >}} {{< var copyright.year >}} Luis Francisco Gómez López</span>
       <span class="faux-block">Licensed under {{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons CC BY 4.0</a></span>
@@ -100,15 +96,21 @@ website:
 
 execute: 
   freeze: auto
+  
+bibliography: bibliography/luifrancgom_github_io.bib
+csl: bibliography/apa_7_edition.csl
     
 format:
   html:
-    theme: cosmo
-    css: css/styles.css
+    theme: 
+      light: 
+        - cosmo
+        - scss/luifrancgom-theme-light.scss
+      dark: 
+        - cosmo
+        - scss/luifrancgom-theme-dark.scss
     toc: false
     code-copy: true
     code-overflow: wrap
-    bibliography: bibliography/luifrancgom_github_io.bib
-    csl: bibliography/apa_7_edition.csl
 
 editor: visual

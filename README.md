@@ -11,3 +11,4 @@ Also, if you want some inspiration and to inspect the source code (**aka using s
 -  https://www.marvinschmitt.com/
 -  https://quarto.org/
 -  https://robjhyndman.com/
+-  https://silviacanelon.com/
