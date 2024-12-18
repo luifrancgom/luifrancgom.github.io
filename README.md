@@ -4,11 +4,32 @@ If you want to create your own website, check out:
 
 - https://quarto.org/docs/websites/
 
-Also, if you want some inspiration and to inspect the source code (**aka using someone else code**), check out:
+Also, if you want some inspiration or inspect the source code (**aka using someone else code**), check out:
+
+## Quarto Gallery
 
 -  https://quarto.org/docs/gallery/#websites
--  https://www.andrewheiss.com/
--  https://www.marvinschmitt.com/
--  https://quarto.org/
--  https://robjhyndman.com/
--  https://silviacanelon.com/
+
+## Andrew Heiss
+
+-  Website: https://www.andrewheiss.com/
+-  Source code: https://github.com/andrewheiss/ath-quarto
+
+## Marvin Schmitt
+
+-  Website: https://www.marvinschmitt.com/
+
+## Quarto
+
+-  Website: https://quarto.org/
+-  Source code: https://github.com/quarto-dev/quarto-web
+
+## Rob J Hyndman 
+
+-  Website: https://robjhyndman.com/
+-  Source code: https://github.com/robjhyndman/robjhyndman.com
+
+## Silvia Canelón
+
+-  Website: https://silviacanelon.com/
+-  Source code: https://github.com/spcanelon/silvia
