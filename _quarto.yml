@@ -95,7 +95,7 @@ website:
       <span class="faux-block">Build with {{< fa brands r-project >}} and {{< iconify simple-icons:quarto >}}</span>
 
 execute: 
-  freeze: auto
+  freeze: true  # never re-render during project render
   
 bibliography: bibliography/luifrancgom_github_io.bib
 csl: bibliography/apa_7_edition.csl

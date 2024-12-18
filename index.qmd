@@ -3,7 +3,7 @@ image: images/luifrancgom.jpg
 about: 
   template: jolla
   image-shape: rectangle
-  image-width: 25em
+  image-width: 20em
 ---
 
 ### Hello Universe! I'm Pacho {{< iconify flag co-4x3 >}}, Chico {{< iconify flag br-4x3 >}}, Paco {{< iconify flag es-4x3 >}} or Pancho {{< iconify flag mx-4x3 >}}
