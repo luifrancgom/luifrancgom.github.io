@@ -2,22 +2,9 @@
 format: 
   html: 
     toc: true
-  pdf: default
 date: 2024-06-09
-date-modified: 2024-06-09
-author:
-  - name: Luis Francisco Gómez López
-    orcid: 0000-0002-2877-9015
-    email: luifrancgom@gmail.com
-    url: https://luifrancgom.github.io/
-    affiliations:
-      - name: Universidad Militar Nueva Granada
-        city: Cajicá
-        country: Colombia
+date-modified: last-modified
 ---
 
 ## Education
-
--   **Master degree in Economics $\cdot$ Economics** <br> *Universidad de los Andes (Bogotá, Colombia)* [ 2009 - 2012]{.cv-date}
--   **Economist $\cdot$ Economics** <br> *Universidad de los Andes (Bogotá, Colombia)* [2004 - 2009]{.cv-date}
 
