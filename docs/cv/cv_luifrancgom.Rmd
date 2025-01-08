@@ -47,7 +47,7 @@ tribble(
     "2012-2012", "CAR Cundinamarca", "Contractor", "Support in economic and financial activities related to agreements with Fondo Nacional de Calamidades - Subcuenta Colombia Humanitaria", "Bogota, Colombia",
     "2012-2013", "CAR Cundinamarca", "Contractor", "Monitoring, control and updating of the activities of the Subdirectorate of sustainable environmental development", "Bogota, Colombia",
     "2014-2024", "Universidad Militar Nueva Granada", "Part-time Auxiliar, Full-time occasional auxiliar, assistant and associate professor", "Teaching introduction to economics, microeconomics, macroeconomics, economic globalization, conflict negotiation and marketing research and analytics", "Cajica & Bogota, Colombia",
-    "2020", "Instituto para la Investigación Educativa y el Desarrollo Pedagógico", "Contractor", "Support in the development of the baseline of the Right to Education Index in Bogotá", "Bogota, Colombia"
+    "2020-2020", "Instituto para la Investigación Educativa y el Desarrollo Pedagógico", "Contractor", "Support in the development of the baseline of the Right to Education Index in Bogotá", "Bogota, Colombia"
 ) |>  
     detailed_entries(
         Position,
