@@ -1,0 +1,88 @@
+---
+name: Luis Francisco
+surname: Gómez López
+position: "Associate professor"
+address: "Sede Campus Nueva Granada, kilómetro 2, vía Cajicá-Zipaquirá"
+pronouns: he/him
+phone: +57 3124541536
+www: luifrancgom.github.io/
+email: "luifrancgom@gmail.com"
+twitter: luifrancgom
+github: luifrancgom
+linkedin: luifrancgom
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: 170c3a 
+output: vitae::hyndman
+headerincludes:
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(dplyr)
+library(tibble)
+```
+
+# Some stuff about me
+
+Economist and professor skilled in using $\Re$ and (\faRProject) $\pi$-thon (\faPython) for data science, including the *[tidyverse](https://www.tidyverse.org/)* package ecosystem.
+
+# Education
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Barchelor degree in economics", "2009", "Universidad de los Andes", "Bogota, Colombia",
+  "Master degree in economics", "2012", "Universidad de los Andes", "Bogota, Colombia"
+) |>  
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Experience
+
+```{r}
+tribble(
+    ~Date, ~Company, ~Position, ~Desc, ~Where,
+    "2011-2011", "Fundación Auxilium IPS", "Contractor", "Preparation of a proposal for a supported employment program for patients", "Bogota, Colombia",
+    "2012-2012", "CAR Cundinamarca", "Contractor", "Support in economic and financial activities related to agreements with Fondo Nacional de Calamidades - Subcuenta Colombia Humanitaria", "Bogota, Colombia",
+    "2012-2013", "CAR Cundinamarca", "Contractor", "Monitoring, control and updating of the activities of the Subdirectorate of sustainable environmental development", "Bogota, Colombia",
+    "2014-2024", "Universidad Militar Nueva Granada", "Part-time Auxiliar, Full-time occasional auxiliar, assistant and associate professor", "Teaching introduction to economics, microeconomics, macroeconomics, economic globalization, conflict negotiation and marketing research and analytics", "Cajica & Bogota, Colombia",
+    "2020", "Instituto para la Investigación Educativa y el Desarrollo Pedagógico", "Contractor", "Support in the development of the baseline of the Right to Education Index in Bogotá", "Bogota, Colombia"
+) |>  
+    detailed_entries(
+        Position,
+        Date,
+        Company,
+        Where,
+        Desc
+    )
+```
+
+# Publications
+
+```{r}
+bibliography_entries("cv_luifrancgom.bib") |> 
+  arrange(desc(author$family), issued)
+```
+
+# Events
+
+-   Encuentro Internacional de Investigadores en Administración 2019 y III Congreso Iberoamericano de Investigación sobre MIPYME (FAEDPYME). Business Analitycs con R para E-research en Administración de Empresas.
+
+-   V Coloquio de Matemáticas Aplicadas. Universidad Militar Nueva Granada. Data Science Workflow with R: explaining the total fertility rate in countries as a case study.
+
+# Certifications
+
+# Certifications
+
+-   Issuing authority: DataCamp
+
+    - Data Scientist with R Track. Issued May 2020 - No Expiration Date
+    - Tidyverse Fundamentals with R Track. Issued: May 2020 - No Expiration Date
+    - R Programmer Track. Issued Feb 2020 - No Expiration Date.
+
+-   Issuing authority: Business Science
+
+    - Data Science For Business With R. Issued: Feb 2020 - No Expiration Date
+    - Business Analysis With R. Issued: Jul 2019 - No Expiration Date
+    - Python for Data Science Automation. Issued: Mar 2024 - No Expiration Date.

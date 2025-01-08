@@ -39,7 +39,7 @@ website:
       - text: "Home"
         href: index.qmd
       - text: "CV"
-        href: docs/cv/index.qmd
+        href: docs/cv/cv_luifrancgom.pdf
       - text: "Blog"
         href: docs/blog/index.qmd
       - text: "Teaching"
