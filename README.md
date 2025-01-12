@@ -3,6 +3,7 @@
 If you want to create your own website, check out:
 
 - https://quarto.org/docs/websites/
+- [Quarto website video series](https://quarto.org/docs/blog/posts/2024-12-04-websites-workshop/)
 
 Also, if you want some inspiration or inspect the source code (**aka using someone else code**), check out:
 
@@ -18,6 +19,7 @@ Also, if you want some inspiration or inspect the source code (**aka using someo
 ## Marvin Schmitt
 
 -  Website: https://www.marvinschmitt.com/
+-  Source code: No code 😩😩😩 (Come on Marvin, what happen?)
 
 ## Quarto
 
@@ -33,3 +35,13 @@ Also, if you want some inspiration or inspect the source code (**aka using someo
 
 -  Website: https://silviacanelon.com/
 -  Source code: https://github.com/spcanelon/silvia
+
+## Emil Hvitfeldt
+
+-  Website: https://emilhvitfeldt.com/
+-  Source code: https://github.com/EmilHvitfeldt/emilhvitfeldt.com
+
+## Mickaël Canouil 
+
+-  Website: https://mickael.canouil.fr/ 
+-  Source code: https://github.com/mcanouil/mickael.canouil.fr 
