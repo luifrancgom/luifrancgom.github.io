@@ -25,7 +25,7 @@ library(tibble)
 
 # Some stuff about me
 
-Economist and professor skilled in using $\Re$ and (\faRProject) $\pi$-thon (\faPython) for data science, including the [*tidyverse*](https://www.tidyverse.org/) package ecosystem.
+Economist and professor skilled in using $\Re$ (\faRProject) and $\pi$-thon (\faPython) for data science, including the [*tidyverse*](https://www.tidyverse.org/) package ecosystem.
 
 # Education
 
