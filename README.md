@@ -45,3 +45,8 @@ Also, if you want some inspiration or inspect the source code (**aka using someo
 
 -  Website: https://mickael.canouil.fr/ 
 -  Source code: https://github.com/mcanouil/mickael.canouil.fr 
+
+## Jadey Ryan
+
+-  Website: https://jadeyryan.com/
+-  Source code: https://github.com/jadeynryan/jadey_website
