@@ -1,43 +1,8 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Luis Francisco Gómez López (aka luifrancgom)",
-    "section": "",
-    "text": "Hello Universe! I’m Pacho , Chico , Paco  or Pancho \nI’m an economist interested in data science. Nowadays, I’m learning statistical learning, \\(\\Re\\) () and \\(\\pi\\)-thon (), micro and macro economics.\nI’m also a professor in the undergraduate Business Administration academic program at the Distance Learning Faculty at Universidad Militar Nueva Granada (Cajicá, Colombia)"
-  },
-  {
-    "objectID": "docs/personal/index.html",
-    "href": "docs/personal/index.html",
-    "title": "Personal",
-    "section": "",
-    "text": "Pending"
-  },
-  {
     "objectID": "docs/tales/index.html",
     "href": "docs/tales/index.html",
     "title": "Tales",
-    "section": "",
-    "text": "Pending"
-  },
-  {
-    "objectID": "docs/teaching/index.html",
-    "href": "docs/teaching/index.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Pending"
-  },
-  {
-    "objectID": "docs/projects/index.html",
-    "href": "docs/projects/index.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Pending"
-  },
-  {
-    "objectID": "docs/blog/index.html",
-    "href": "docs/blog/index.html",
-    "title": "Blog",
     "section": "",
     "text": "Pending"
   },
@@ -47,5 +12,96 @@
     "title": "Some stuff about me",
     "section": "",
     "text": "Some stuff about me\nEconomist and professor skilled in using \\(\\Re\\) and () \\(\\pi\\)-thon () for data science, including the tidyverse package ecosystem.\n\n\nEducation\n\n\n# A tibble: 2 × 5\n  what                          when  with                     where       why  \n  &lt;chr&gt;                         &lt;chr&gt; &lt;chr&gt;                    &lt;chr&gt;       &lt;lis&gt;\n1 Barchelor degree in economics 2009  Universidad de los Andes Bogota, Co… &lt;chr&gt;\n2 Master degree in economics    2012  Universidad de los Andes Bogota, Co… &lt;chr&gt;\n\n\n\n\nExperience\n\n\n# A tibble: 5 × 5\n  what                                                   when  with  where why  \n  &lt;chr&gt;                                                  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;lis&gt;\n1 Contractor                                             2011… Fund… Bogo… &lt;chr&gt;\n2 Contractor                                             2012… CAR … Bogo… &lt;chr&gt;\n3 Contractor                                             2012… CAR … Bogo… &lt;chr&gt;\n4 Part-time Auxiliar, Full-time occasional auxiliar, as… 2014… Univ… Caji… &lt;chr&gt;\n5 Contractor                                             2020  Inst… Bogo… &lt;chr&gt;\n\n\n\n\nPublications\n\n\n\n\n\n\n\n\n\nEvents\n\nEncuentro Internacional de Investigadores en Administración 2019 y III Congreso Iberoamericano de Investigación sobre MIPYME (FAEDPYME). Business Analitycs con R para E-research en Administración de Empresas.\nV Coloquio de Matemáticas Aplicadas. Universidad Militar Nueva Granada. Data Science Workflow with R: explaining the total fertility rate in countries as a case study.\n\n\n\nCertifications\n\n\nCertifications\n\nIssuing authority: DataCamp\n\nData Scientist with R Track. Issued May 2020 - No Expiration Date\nTidyverse Fundamentals with R Track. Issued: May 2020 - No Expiration Date\nR Programmer Track. Issued Feb 2020 - No Expiration Date.\n\nIssuing authority: Business Science\n\nData Science For Business With R. Issued: Feb 2020 - No Expiration Date\nBusiness Analysis With R. Issued: Jul 2019 - No Expiration Date\nPython for Data Science Automation. Issued: Mar 2024 - No Expiration Date."
+  },
+  {
+    "objectID": "docs/blog/index.html",
+    "href": "docs/blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "functional equations\n\n\n\nExploring the solution of the functional equation \\(f(x + y) = f(x) + f(y)\\) proposed initially by Augustin-Louis Cauchy\n\n\n\n\n\n2025-01-26\n\n\nLuis Francisco Gómez López\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "docs/blog/index.html#section",
+    "href": "docs/blog/index.html#section",
+    "title": "Blog",
+    "section": "",
+    "text": "functional equations\n\n\n\nExploring the solution of the functional equation \\(f(x + y) = f(x) + f(y)\\) proposed initially by Augustin-Louis Cauchy\n\n\n\n\n\n2025-01-26\n\n\nLuis Francisco Gómez López\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "docs/projects/index.html",
+    "href": "docs/projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Pending"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Luis Francisco Gómez López (aka luifrancgom)",
+    "section": "",
+    "text": "Hello Universe! I’m Pacho , Chico , Paco  or Pancho \nI’m an economist interested in data science. Nowadays, I’m learning statistical learning, \\(\\Re\\) () and \\(\\pi\\)-thon (), micro and macro economics.\nI’m also a professor in the undergraduate Business Administration academic program at the Distance Learning Faculty at Universidad Militar Nueva Granada (Cajicá, Colombia)"
+  },
+  {
+    "objectID": "docs/teaching/index.html",
+    "href": "docs/teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Pending"
+  },
+  {
+    "objectID": "docs/blog/2025/cauchy_basic_functional_equation/index.html",
+    "href": "docs/blog/2025/cauchy_basic_functional_equation/index.html",
+    "title": "Cauchy’s basic functional equation",
+    "section": "",
+    "text": "According to (Aczél, 1966, p. vii), the study of functional equations is one of the oldest topics in mathematical analysis. Great mathematicians such as Jean-Baptiste le Rond d’Alembert, Leonhard Euler, Augustin-Louis Cauchy, Niels Henrik Abel, Karl Theodor Wilhelm Weierstrass, Jean-Gaston Darboux, and David Hilbert all contributed to this field. This post provides a comprehensive exploration of a solution to Cauchy’s basic functional equation over the real numbers, offering an introduction to this area of mathematics."
+  },
+  {
+    "objectID": "docs/blog/2025/cauchy_basic_functional_equation/index.html#f-evaluated-at-0",
+    "href": "docs/blog/2025/cauchy_basic_functional_equation/index.html#f-evaluated-at-0",
+    "title": "Cauchy’s basic functional equation",
+    "section": "3.1 \\(f\\) evaluated at \\(0\\)",
+    "text": "3.1 \\(f\\) evaluated at \\(0\\)\nLet \\(y = 0\\) then:\n\\[\\begin{split}\n        f(x + 0) & = f(x) + f(0) \\\\\n        f(x) - f(x) & = f(0) \\\\\n        0 & = f(0) \\\\\n        f(0) &  = 0f(0)\n    \\end{split} \\tag{2}\\]"
+  },
+  {
+    "objectID": "docs/blog/2025/cauchy_basic_functional_equation/index.html#f-and-induction",
+    "href": "docs/blog/2025/cauchy_basic_functional_equation/index.html#f-and-induction",
+    "title": "Cauchy’s basic functional equation",
+    "section": "3.2 \\(f\\) and induction",
+    "text": "3.2 \\(f\\) and induction\nFrom Equation 2, we can deduce that \\(f(x + 0) = f(x) + f(0) = f(x) = f(1x) = 1f(x)\\). Furthermore, using the functional equation repeatedly, we get:\n\\[\\begin{split}\n        f(2x) & = f(x + x) \\\\\n        & = f(x) + f(x) \\\\\n        & = 2f(x)\n    \\end{split}\\]\n\\[\\begin{split}\n        f(x + 2x) & = f(x) + f(2x) \\\\\n        & = f(x) + 2f(x) \\\\\n        & = 3f(x)\n    \\end{split}\\]\nThis suggests a pattern that we can generalize. Let:\n\\[f(x_1 + \\cdots + x_n) = f(x_1) + \\cdots + f(x_n); \\; n \\geq 2 \\text{ and } n \\in \\mathbb{P}\\]\nwhere \\(\\mathbb{P}\\) denotes the set of positive integers. In particular, if \\(x_k = x\\) for \\(k = 1, \\ldots, n\\) then:\n\\[f(nx) = nf(x); \\; n \\geq 2 \\text{ and } n \\in \\mathbb{P}\\]\nMore generally, we have:\n\\[f(nx) = nf(x); \\; n \\in \\mathbb{N}\\]\nwhere \\(\\mathbb{N}\\) denotes the set of natural numbers."
+  },
+  {
+    "objectID": "docs/blog/2025/cauchy_basic_functional_equation/index.html#f-and-rational-numbers",
+    "href": "docs/blog/2025/cauchy_basic_functional_equation/index.html#f-and-rational-numbers",
+    "title": "Cauchy’s basic functional equation",
+    "section": "3.3 \\(f\\) and rational numbers",
+    "text": "3.3 \\(f\\) and rational numbers\nAssume that \\(x = \\frac{m}{n}t = qt\\) where \\(m \\in \\mathbb{N}\\), \\(n \\in \\mathbb{P}\\) and \\(t \\in \\mathbb{R}\\). Therefore, \\(q = \\frac{m}{n} \\in \\mathbb{Q}_{\\geq 0}\\) where \\(\\mathbb{Q}_{\\geq 0}\\) denotes the set of rational numbers greater than or equal to \\(0\\). Hence:\n\\[\\begin{split}\n    nx & = mt \\\\\n    f(nx) & = f(mt) \\\\\n    nf(x) & = mf(t) \\\\\n    f(x) & = \\frac{m}{n}f(t) \\\\\n    f \\left( \\frac{m}{n}t \\right) & = \\frac{m}{n}f(t) \\\\\n    f(qt) & = q f(t) \\\\\n    \\end{split} \\tag{3}\\]"
+  },
+  {
+    "objectID": "docs/blog/2025/cauchy_basic_functional_equation/index.html#f-as-an-odd-function",
+    "href": "docs/blog/2025/cauchy_basic_functional_equation/index.html#f-as-an-odd-function",
+    "title": "Cauchy’s basic functional equation",
+    "section": "3.4 \\(f\\) as an odd function",
+    "text": "3.4 \\(f\\) as an odd function\nLet \\(y = -x\\) then:\n\\[\\begin{split}\n        0 = f(0) = f(x + (- x)) & = f(x) + f(-x) \\\\\n        0 & = f(x) + f(-x) \\\\\n        -f(x) & = f(-x)\n    \\end{split} \\tag{4}\\]\nFrom Equation 4 we can deduce that \\(f((-q)t) = -q f(t)\\) where Equation 3 also applies for rational numbers less than \\(0\\)."
+  },
+  {
+    "objectID": "docs/blog/2025/cauchy_basic_functional_equation/index.html#sec-f-continuous-all-r",
+    "href": "docs/blog/2025/cauchy_basic_functional_equation/index.html#sec-f-continuous-all-r",
+    "title": "Cauchy’s basic functional equation",
+    "section": "3.5 \\(f\\) as a continuous function on \\(\\mathbb{R}\\)",
+    "text": "3.5 \\(f\\) as a continuous function on \\(\\mathbb{R}\\)\nAssume \\(f\\) is continuous on \\(\\mathbb{R}\\). This means \\(f\\) exhibits continuity at every point \\(u \\in \\mathbb{R}\\). But what exactly defines a continuous function? Continuity is a fundamental concept in calculus, capturing the idea that a function’s values change smoothly without any abrupt jumps or breaks. While there are various ways to describe continuity, they all revolve around the function’s behavior at a specific point. One common approach uses the idea of limits to rigorously define continuity. A formal definition using limits is provided in Definition 1.\n\nDefinition 1 (Continuity in terms of limits) A function \\(f\\) is continuous at a point \\(u \\in \\mathbb{R}\\) if and only if:\n\n\\(f(u)\\) is defined\n\\(\\lim_{x \\to u} f(x)\\) exists\n\\(\\lim_{x \\to u} f(x) = f(u)\\)\n\n\nSince \\(u \\in \\mathbb{R}\\), there exists a sequence \\(q_n\\)1 of rational numbers that converges to \\(u\\) (See Section 3.5.1). That is, \\(\\lim_{n \\to \\infty} q_n = u\\). Using Equation 3, the continuity of \\(f\\) (Definition 1) and a change of variables in the limit (See Section 3.5.2), we have:\n\\[\\begin{split}\n   f(q_n t) & = q_n f(t) \\\\\n   \\lim_{n \\to \\infty} f(q_n t) & = \\lim_{n \\to \\infty} q_n f(t) \\\\\n   \\lim_{q_nt \\to ut} f(q_n t) & = f(t) \\lim_{n \\to \\infty} q_n \\\\\n   f(ut) & = f(t) u \\\\\n   f(tu) & = f(t) u\n  \\end{split} \\tag{5}\\]\nLet \\(t = 1\\) and \\(f(1) = c\\) then the solution to Equation 1 is \\(f(x) = cx\\) where \\(x \\in \\mathbb{R}\\), assuming that \\(f\\) is continuous on \\(\\mathbb{R}\\).\n\n3.5.1 Representing real numbers as limits of rational sequences\nLet \\(u\\) be a real number. For each \\(n \\in \\mathbb{P}\\), define \\(q_n = \\frac{\\lfloor nu \\rfloor}{n}\\), where \\(\\lfloor nu \\rfloor\\) denotes the floor of \\(nu\\). That is, \\(\\lfloor nu \\rfloor\\) is the unique integer satisfying:\n\\[\\lfloor nu \\rfloor \\leq nu &lt; \\lfloor nu \\rfloor + 1\\]\nTherefore, \\(nu - 1 &lt; \\lfloor nu \\rfloor\\) and \\(\\lfloor nu \\rfloor \\leq nu\\), so \\(nu - 1 &lt; \\lfloor nu \\rfloor \\leq nu\\). Thus:\n\\[\\begin{align*}\n\\frac{nu - 1}{n} & &lt; \\frac{\\lfloor nu \\rfloor}{n} \\leq u \\\\\nu - \\frac{1}{n}  & &lt; \\frac{\\lfloor nu \\rfloor}{n} \\leq u\n\\end{align*}\\]\nSince \\(\\lim_{n \\to \\infty} \\left( u - \\frac{1}{n} \\right) = u\\) and \\(\\lim_{n \\to \\infty} u = u\\), the squeeze theorem for real sequences (see Section 3.5.1.1) implies that \\(\\lim_{n \\to \\infty} \\frac{\\lfloor nu \\rfloor}{n} = u\\). Therefore, the sequence \\((q_n)\\) converges to \\(u\\).\nTo illustrate this result, consider the following examples:\n\nExample 1 (\\(u = \\frac{1}{3}\\))  \n\n\n\n\n\n\n\n\nFigure 1: \\(q_n = \\frac{\\left\\lfloor n\\frac{1}{3} \\right\\rfloor}{n}\\)\n\n\n\n\n\n\n\nExample 2 (\\(u = \\pi\\))  \n\n\n\n\n\n\n\n\nFigure 2: \\(q_n = \\frac{\\lfloor n\\pi \\rfloor}{n}\\)\n\n\n\n\n\n\n\n3.5.1.1 Squeeze theorem for real sequences\nIf \\(\\lim_{n \\to \\infty} q_n = u\\) it means that for all \\(\\varepsilon &gt; 0\\) it exists a positive integer \\(N\\) such that for every positive integer \\(n \\geq N\\), we have that \\(|q_n - u| &lt; \\varepsilon\\). That is:\n\\[\\forall \\varepsilon (\\varepsilon &gt; 0 \\Longrightarrow \\exists N (N \\in \\mathbb{P} \\land \\forall n (n \\in \\mathbb{P} \\land n \\geq N \\Longrightarrow |q_n - u| &lt; \\varepsilon)))\\]\nFor example, if \\(q_n = c\\) then \\(\\lim_{n \\to \\infty} q_n = c\\) (see Example 3). Let \\(N = 1\\) then \\(q_N = c\\) and for \\(n \\geq N\\) we have \\(q_n = c\\). Therefore:\n\\[\\begin{equation*}\n    \\begin{split}\n        0 &lt; \\varepsilon & \\iff |c - c| &lt; \\varepsilon \\\\\n        & \\iff |q_N - c| &lt; \\varepsilon \\\\\n        & \\iff |q_n - c| = |q_N - c| &lt; \\varepsilon \\\\\n        & \\iff |q_n - c| &lt; \\varepsilon \\\\\n    \\end{split}\n\\end{equation*}\\]\n\nExample 3 (\\(q_n = 2\\))  \n\n\n\n\n\n\n\n\nFigure 3: \\(q_n = 2\\)\n\n\n\n\n\n\nAlso, if \\(q_n = \\frac{1}{n}\\) then \\(\\lim_{n \\to \\infty} q_n = 0\\) (see Example 4). Let \\(N = \\left\\lfloor \\frac{1}{\\varepsilon} \\right\\rfloor + 1\\) and for \\(n \\geq N\\) we have that \\(q_n = \\frac{1}{n}\\). Therefore:\n\\[\\begin{equation*}\n    \\begin{split}\n        \\frac{1}{\\varepsilon} &lt;  \\left\\lfloor \\frac{1}{\\varepsilon} \\right\\rfloor + 1 & \\iff \\frac{1}{\\varepsilon} &lt; N \\\\\n        & \\iff \\frac{1}{N} &lt; \\varepsilon \\\\\n        & \\iff \\frac{1}{n} \\leq \\frac{1}{N} &lt; \\varepsilon \\\\\n        & \\iff \\frac{1}{n} &lt; \\varepsilon \\\\\n        & \\iff \\left| \\frac{1}{n} - 0 \\right| &lt; \\varepsilon \\\\\n        & \\iff \\left| q_n - 0 \\right| &lt; \\varepsilon\n    \\end{split}\n\\end{equation*}\\]\n\nExample 4 (\\(q_n = \\frac{1}{n}\\))  \n\n\n\n\n\n\n\n\nFigure 4: \\(q_n = \\frac{1}{n}\\)\n\n\n\n\n\n\nNow, let \\(p_n \\leq q_n \\leq r_n\\) and \\(\\lim_{n \\to \\infty} p_n = u = \\lim_{n \\to \\infty} r_n\\). Then:\n\nFor all \\(\\varepsilon &gt; 0\\) there is some \\(N_p\\) such that \\(n \\geq N_p\\) where \\(|p_n - u| &lt; \\epsilon\\). So \\(u - \\varepsilon &lt; p_n &lt; u + \\varepsilon\\).\nFor all \\(\\varepsilon &gt; 0\\) there is some \\(N_r\\) such that \\(n \\geq N_r\\) where \\(|r_n - u| &lt; \\epsilon\\). So \\(u - \\varepsilon &lt; r_n &lt; u + \\varepsilon\\).\n\nLet \\(N = max \\{ N_p, N_r \\}\\) then because \\(p_n \\leq q_n \\leq r_n\\), \\(u - \\varepsilon &lt; p_n\\) and \\(r_n &lt; u + \\varepsilon\\) we have that \\(u - \\varepsilon &lt; q_n &lt; u + \\varepsilon\\). So, for all \\(\\varepsilon &gt; 0\\) there is some \\(N\\) such that \\(n \\geq N\\) where \\(|q_n - u| &lt; \\varepsilon\\). Therefore, \\(\\lim_{n \\to \\infty} q_n = u\\).\n\n\n\n3.5.2 Change of variables in limits for real functions\nUnder what conditions we can apply a change of variables to calculate a limit as in Equation 5? First, we need to formalize the notion of \\(\\lim_{x \\to \\infty} f(x) = L\\) (See Protter (1997), pp. 48-54) and use another definition of continuous function using \\(\\epsilon\\) and \\(\\delta\\) that is equivalent to Definition 1 (See Protter (1997), pp. 30-35).\n\nDefinition 2 (Limit at infinity) If \\(\\lim_{x \\to \\infty} f(x) = L\\) it means that for all \\(\\varepsilon &gt; 0\\) it exists a number \\(N &gt; 0\\) such that \\(|f(x) - L| &lt; \\varepsilon\\) for all \\(x &gt; N\\). That is:\n\\[\\forall \\varepsilon (\\varepsilon &gt; 0 \\Longrightarrow \\exists N (N &gt; 0 \\land \\forall x (x \\in \\mathbb{R} \\land x &gt; N \\Longrightarrow |f(x) - L| &lt; \\varepsilon)))\\]\n\n\nDefinition 3 (Continuity using \\(\\epsilon\\) and \\(\\delta\\)) A function \\(f\\) is continuous at a point \\(u \\in \\mathbb{R}\\) if and only if:\n\nThe point \\(u\\) is in an open interval \\(I\\) contained in \\(\\mathbb{R}\\)\nFor all \\(\\varepsilon &gt; 0\\) it exists \\(\\delta &gt; 0\\) such that if \\(|x - u| &lt; \\delta\\) then \\(|f(x) - f(u)| &lt; \\varepsilon\\)\n\n\nSecond, we can establish and prove the following theorem, then apply it to Equation 5:\n\nTheorem 1 (Change of variables in limits) Let \\(\\lim_{s \\to w} f(s)\\) and \\(\\lim_{n \\to \\infty} f(q(n))\\) where \\(\\lim_{n \\to \\infty} q(n) = w\\). If \\(f\\) is continuous at \\(w\\) then \\(\\lim_{s \\to w} f(s) = \\lim_{n \\to \\infty} f(q(n))\\).\n\n\nProof. \n\nBecause \\(f\\) is continuous at \\(w\\) by Definition 1 \\(\\lim_{s \\to w} f(s) = w\\). Furthermore by Definition 3 for all \\(\\varepsilon &gt; 0\\) it exists \\(\\delta &gt; 0\\) such that if \\(|s - w| &lt; \\delta\\) then \\(|f(s) - f(w)| &lt; \\varepsilon\\).\nIf \\(s = q(n)\\) then by 1. for all \\(\\varepsilon &gt; 0\\) it exists \\(\\delta &gt; 0\\) such that if \\(|q(n) - w| &lt; \\delta\\) then \\(|f(q(n)) - f(w)| &lt; \\varepsilon\\).\nBecause \\(\\lim_{n \\to \\infty} q(n) = w\\) by Definition 2 for all \\(\\varepsilon^* &gt; 0\\) it exists a number \\(N &gt; 0\\) such that \\(|q(n) - w| &lt; \\varepsilon^*\\) for all \\(n &gt; N\\).\nLetting \\(\\varepsilon^* = \\delta\\) and using 3. and 2. we have that for all \\(\\varepsilon &gt; 0\\) it exists a number \\(N &gt; 0\\) such that \\(|f(q(n)) - f(w)| &lt; \\varepsilon\\) for all \\(n &gt; N\\). Therefore \\(\\lim_{n \\to \\infty} f(q(n)) = w\\).\nBy 1. and 4. \\(\\lim_{s \\to w} f(s) = \\lim_{n \\to \\infty} f(q(n))\\)."
+  },
+  {
+    "objectID": "docs/blog/2025/cauchy_basic_functional_equation/index.html#footnotes",
+    "href": "docs/blog/2025/cauchy_basic_functional_equation/index.html#footnotes",
+    "title": "Cauchy’s basic functional equation",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nIt is traditional to write \\(q_n\\) instead of \\(q(n)\\) where \\(q_n\\) is a function whose domain is the set of positive integers.↩︎"
+  },
+  {
+    "objectID": "docs/personal/index.html",
+    "href": "docs/personal/index.html",
+    "title": "Personal",
+    "section": "",
+    "text": "Pending"
   }
 ]

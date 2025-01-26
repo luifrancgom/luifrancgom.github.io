@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.40">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Luis Francisco Gómez López">
+<meta name="dcterms.date" content="2025-01-26">
+<meta name="description" content="Exploring the solution of the functional equation f(x + y) = f(x) + f(y) proposed initially by Augustin-Louis Cauchy">
+
+<title>Cauchy’s basic functional equation – Luis Francisco Gómez López (aka luifrancgom)</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../">
+<link href="../../../../images/fox_gold.png" rel="icon" type="image/png">
+<script src="../../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap-c06ce800edd36afa1a1ecbc7a9dd0e84.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../../site_libs/bootstrap/bootstrap-dark-1ecb7b74904c84fdf10ed7a914806d9a.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../../../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "textbox",
+  "limit": 20,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Luis Francisco Gómez López">
+<meta property="og:description" content="Exploring the solution of the functional equation \(f(x + y) = f(x) + f(y)\) proposed initially by Augustin-Louis Cauchy">
+<meta property="og:image" content="https://luifrancgom.github.io/docs/blog/2025/cauchy_basic_functional_equation/augustin_louis_baron_cauchy_lithograph_by_j_boilly_1821.jpg">
+<meta property="og:site_name" content="luifrancgom">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:title" content="Luis Francisco Gómez López">
+<meta name="twitter:description" content="Exploring the solution of the functional equation \(f(x + y) = f(x) + f(y)\) proposed initially by Augustin-Louis Cauchy">
+<meta name="twitter:image" content="https://luifrancgom.github.io/docs/blog/2025/cauchy_basic_functional_equation/augustin_louis_baron_cauchy_lithograph_by_j_boilly_1821.jpg">
+<meta name="twitter:image:alt" content="A circle logo featuring a gold fox design">
+<meta name="twitter:creator" content="@luifrancgom">
+<meta name="twitter:site" content="@luifrancgom">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../../images/fox_gold.png" alt="A circle logo featuring a gold fox design" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../../../index.html">
+    <span class="navbar-title">Luis Francisco Gómez López</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../docs/cv/cv_luifrancgom.pdf"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../docs/blog/index.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../docs/teaching/index.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../docs/projects/index.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../docs/tales/index.html"> 
+<span class="menu-text">Tales</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../docs/personal/index.html"> 
+<span class="menu-text">Personal</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/luifrancgom/" rel="noopener noreferrer" target="_blank"> <i class="bi bi-twitter" role="img" aria-label="Link to luifrancgom Twitter">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/@luifrancgom" rel="noopener noreferrer" target="_blank"> <i class="bi bi-youtube" role="img" aria-label="Link to luifrancgom Youtube">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/luifrancgom" rel="noopener noreferrer" target="_blank"> <i class="bi bi-linkedin" role="img" aria-label="Link to luifrancgom LinkedIn">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/luifrancgom" rel="noopener noreferrer" target="_blank"> <i class="bi bi-github" role="img" aria-label="Link to luifrancgom Github">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://stackoverflow.com/users/11192275/luifrancgom" rel="noopener noreferrer" target="_blank"> <i class="bi bi-stack-overflow" role="img" aria-label="Link to luifrancgom Stack Overflow">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:luifrancgom@gmail"> <i class="bi bi-envelope-at" role="img" aria-label="Send email to luifrancgom">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a></li>
+  <li><a href="#cauchys-basic-functional-equation" id="toc-cauchys-basic-functional-equation" class="nav-link" data-scroll-target="#cauchys-basic-functional-equation"><span class="header-section-number">2</span> Cauchy’s basic functional equation</a></li>
+  <li><a href="#a-particular-solution" id="toc-a-particular-solution" class="nav-link" data-scroll-target="#a-particular-solution"><span class="header-section-number">3</span> A particular solution</a>
+  <ul class="collapse">
+  <li><a href="#f-evaluated-at-0" id="toc-f-evaluated-at-0" class="nav-link" data-scroll-target="#f-evaluated-at-0"><span class="header-section-number">3.1</span> <span class="math inline">\(f\)</span> evaluated at <span class="math inline">\(0\)</span></a></li>
+  <li><a href="#f-and-induction" id="toc-f-and-induction" class="nav-link" data-scroll-target="#f-and-induction"><span class="header-section-number">3.2</span> <span class="math inline">\(f\)</span> and induction</a></li>
+  <li><a href="#f-and-rational-numbers" id="toc-f-and-rational-numbers" class="nav-link" data-scroll-target="#f-and-rational-numbers"><span class="header-section-number">3.3</span> <span class="math inline">\(f\)</span> and rational numbers</a></li>
+  <li><a href="#f-as-an-odd-function" id="toc-f-as-an-odd-function" class="nav-link" data-scroll-target="#f-as-an-odd-function"><span class="header-section-number">3.4</span> <span class="math inline">\(f\)</span> as an odd function</a></li>
+  <li><a href="#sec-f-continuous-all-r" id="toc-sec-f-continuous-all-r" class="nav-link" data-scroll-target="#sec-f-continuous-all-r"><span class="header-section-number">3.5</span> <span class="math inline">\(f\)</span> as a continuous function on <span class="math inline">\(\mathbb{R}\)</span></a>
+  <ul class="collapse">
+  <li><a href="#sec-real-num-seq-rational-num" id="toc-sec-real-num-seq-rational-num" class="nav-link" data-scroll-target="#sec-real-num-seq-rational-num"><span class="header-section-number">3.5.1</span> Representing real numbers as limits of rational sequences</a></li>
+  <li><a href="#sec-change-variables-limits-real-functions" id="toc-sec-change-variables-limits-real-functions" class="nav-link" data-scroll-target="#sec-change-variables-limits-real-functions"><span class="header-section-number">3.5.2</span> Change of variables in limits for real functions</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">4</span> Conclusion</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">5</span> References</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Cauchy’s basic functional equation</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">functional equations</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Exploring the solution of the functional equation <span class="math inline">\(f(x + y) = f(x) + f(y)\)</span> proposed initially by Augustin-Louis Cauchy
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Luis Francisco Gómez López </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 26, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introduction" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Introduction</h1>
+<p>According to <span class="citation" data-cites="aczel_lectures_1966">(<a href="#ref-aczel_lectures_1966" role="doc-biblioref">Aczél, 1966, p. vii</a>)</span>, the study of functional equations is one of the oldest topics in mathematical analysis. Great mathematicians such as Jean-Baptiste le Rond d’Alembert, Leonhard Euler, Augustin-Louis Cauchy, Niels Henrik Abel, Karl Theodor Wilhelm Weierstrass, Jean-Gaston Darboux, and David Hilbert all contributed to this field. This post provides a comprehensive exploration of a solution to Cauchy’s basic functional equation over the real numbers, offering an introduction to this area of mathematics.</p>
+</section>
+<section id="cauchys-basic-functional-equation" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Cauchy’s basic functional equation</h1>
+<p>Cauchy’s basic functional equation is given by:</p>
+<p><span id="eq-cauchy-functional"><span class="math display">\[f(x + y) = f(x) + f(y) \; ; \; x, y \in \mathbb{R} \tag{1}\]</span></span></p>
+<p>where <span class="math inline">\(\mathbb{R}\)</span> denotes the set of real numbers. <a href="#eq-cauchy-functional" class="quarto-xref">Equation&nbsp;1</a> was first solved by Augustin-Louis Cauchy <span class="citation" data-cites="cauchy_cours_2009">(<a href="#ref-cauchy_cours_2009" role="doc-biblioref">Cauchy, 2009, Chapter 5</a>, pp.&nbsp;103-106)</span>. For a detailed discussion, see <span class="citation" data-cites="aczel_lectures_1966">(<a href="#ref-aczel_lectures_1966" role="doc-biblioref">Aczél, 1966, Chapter 2</a>, pp.&nbsp;31-36)</span>.</p>
+</section>
+<section id="a-particular-solution" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> A particular solution</h1>
+<p>Cauchy’s proposed solution to <a href="#eq-cauchy-functional" class="quarto-xref">Equation&nbsp;1</a> offers an elegant approach. By examining specific cases and making a certain assumption about <span class="math inline">\(f\)</span>, he progressively advanced toward a general solution. The following sections detail this process, using modern notation and a formal approach. In <a href="#sec-f-continuous-all-r" class="quarto-xref">Section&nbsp;3.5</a>, the final solution is presented, followed by additional results for the interested reader.</p>
+<section id="f-evaluated-at-0" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="f-evaluated-at-0"><span class="header-section-number">3.1</span> <span class="math inline">\(f\)</span> evaluated at <span class="math inline">\(0\)</span></h2>
+<p>Let <span class="math inline">\(y = 0\)</span> then:</p>
+<p><span id="eq-f-zero"><span class="math display">\[\begin{split}
+        f(x + 0) &amp; = f(x) + f(0) \\
+        f(x) - f(x) &amp; = f(0) \\
+        0 &amp; = f(0) \\
+        f(0) &amp;  = 0f(0)
+    \end{split} \tag{2}\]</span></span></p>
+</section>
+<section id="f-and-induction" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="f-and-induction"><span class="header-section-number">3.2</span> <span class="math inline">\(f\)</span> and induction</h2>
+<p>From <a href="#eq-f-zero" class="quarto-xref">Equation&nbsp;2</a>, we can deduce that <span class="math inline">\(f(x + 0) = f(x) + f(0) = f(x) = f(1x) = 1f(x)\)</span>. Furthermore, using the functional equation repeatedly, we get:</p>
+<p><span class="math display">\[\begin{split}
+        f(2x) &amp; = f(x + x) \\
+        &amp; = f(x) + f(x) \\
+        &amp; = 2f(x)
+    \end{split}\]</span></p>
+<p><span class="math display">\[\begin{split}
+        f(x + 2x) &amp; = f(x) + f(2x) \\
+        &amp; = f(x) + 2f(x) \\
+        &amp; = 3f(x)
+    \end{split}\]</span></p>
+<p>This suggests a pattern that we can generalize. Let:</p>
+<p><span class="math display">\[f(x_1 + \cdots + x_n) = f(x_1) + \cdots + f(x_n); \; n \geq 2 \text{ and } n \in \mathbb{P}\]</span></p>
+<p>where <span class="math inline">\(\mathbb{P}\)</span> denotes the set of positive integers. In particular, if <span class="math inline">\(x_k = x\)</span> for <span class="math inline">\(k = 1, \ldots, n\)</span> then:</p>
+<p><span class="math display">\[f(nx) = nf(x); \; n \geq 2 \text{ and } n \in \mathbb{P}\]</span></p>
+<p>More generally, we have:</p>
+<p><span class="math display">\[f(nx) = nf(x); \; n \in \mathbb{N}\]</span></p>
+<p>where <span class="math inline">\(\mathbb{N}\)</span> denotes the set of natural numbers.</p>
+</section>
+<section id="f-and-rational-numbers" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="f-and-rational-numbers"><span class="header-section-number">3.3</span> <span class="math inline">\(f\)</span> and rational numbers</h2>
+<p>Assume that <span class="math inline">\(x = \frac{m}{n}t = qt\)</span> where <span class="math inline">\(m \in \mathbb{N}\)</span>, <span class="math inline">\(n \in \mathbb{P}\)</span> and <span class="math inline">\(t \in \mathbb{R}\)</span>. Therefore, <span class="math inline">\(q = \frac{m}{n} \in \mathbb{Q}_{\geq 0}\)</span> where <span class="math inline">\(\mathbb{Q}_{\geq 0}\)</span> denotes the set of rational numbers greater than or equal to <span class="math inline">\(0\)</span>. Hence:</p>
+<p><span id="eq-f-rational-number"><span class="math display">\[\begin{split}
+    nx &amp; = mt \\
+    f(nx) &amp; = f(mt) \\
+    nf(x) &amp; = mf(t) \\
+    f(x) &amp; = \frac{m}{n}f(t) \\
+    f \left( \frac{m}{n}t \right) &amp; = \frac{m}{n}f(t) \\
+    f(qt) &amp; = q f(t) \\
+    \end{split} \tag{3}\]</span></span></p>
+</section>
+<section id="f-as-an-odd-function" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="f-as-an-odd-function"><span class="header-section-number">3.4</span> <span class="math inline">\(f\)</span> as an odd function</h2>
+<p>Let <span class="math inline">\(y = -x\)</span> then:</p>
+<p><span id="eq-f-odd"><span class="math display">\[\begin{split}
+        0 = f(0) = f(x + (- x)) &amp; = f(x) + f(-x) \\
+        0 &amp; = f(x) + f(-x) \\
+        -f(x) &amp; = f(-x)
+    \end{split} \tag{4}\]</span></span></p>
+<p>From <a href="#eq-f-odd" class="quarto-xref">Equation&nbsp;4</a> we can deduce that <span class="math inline">\(f((-q)t) = -q f(t)\)</span> where <a href="#eq-f-rational-number" class="quarto-xref">Equation&nbsp;3</a> also applies for rational numbers less than <span class="math inline">\(0\)</span>.</p>
+</section>
+<section id="sec-f-continuous-all-r" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="sec-f-continuous-all-r"><span class="header-section-number">3.5</span> <span class="math inline">\(f\)</span> as a continuous function on <span class="math inline">\(\mathbb{R}\)</span></h2>
+<p>Assume <span class="math inline">\(f\)</span> is continuous on <span class="math inline">\(\mathbb{R}\)</span>. This means <span class="math inline">\(f\)</span> exhibits continuity at every point <span class="math inline">\(u \in \mathbb{R}\)</span>. But what exactly defines a continuous function? Continuity is a fundamental concept in calculus, capturing the idea that a function’s values change smoothly without any abrupt jumps or breaks. While there are various ways to describe continuity, they all revolve around the function’s behavior at a specific point. One common approach uses the idea of limits to rigorously define continuity. A formal definition using limits is provided in <a href="#def-f-continuous-limits" class="quarto-xref">Definition&nbsp;1</a>.</p>
+<div id="def-f-continuous-limits" class="theorem definition">
+<p><span class="theorem-title"><strong>Definition 1 (Continuity in terms of limits)</strong></span> A function <span class="math inline">\(f\)</span> is continuous at a point <span class="math inline">\(u \in \mathbb{R}\)</span> if and only if:</p>
+<ol type="1">
+<li><span class="math inline">\(f(u)\)</span> is defined</li>
+<li><span class="math inline">\(\lim_{x \to u} f(x)\)</span> exists</li>
+<li><span class="math inline">\(\lim_{x \to u} f(x) = f(u)\)</span></li>
+</ol>
+</div>
+<p>Since <span class="math inline">\(u \in \mathbb{R}\)</span>, there exists a sequence <span class="math inline">\(q_n\)</span><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> of rational numbers that converges to <span class="math inline">\(u\)</span> (See <a href="#sec-real-num-seq-rational-num" class="quarto-xref">Section&nbsp;3.5.1</a>). That is, <span class="math inline">\(\lim_{n \to \infty} q_n = u\)</span>. Using <a href="#eq-f-rational-number" class="quarto-xref">Equation&nbsp;3</a>, the continuity of <span class="math inline">\(f\)</span> (<a href="#def-f-continuous-limits" class="quarto-xref">Definition&nbsp;1</a>) and a change of variables in the limit (See <a href="#sec-change-variables-limits-real-functions" class="quarto-xref">Section&nbsp;3.5.2</a>), we have:</p>
+<p><span id="eq-f-continuous-on-r"><span class="math display">\[\begin{split}
+   f(q_n t) &amp; = q_n f(t) \\
+   \lim_{n \to \infty} f(q_n t) &amp; = \lim_{n \to \infty} q_n f(t) \\
+   \lim_{q_nt \to ut} f(q_n t) &amp; = f(t) \lim_{n \to \infty} q_n \\
+   f(ut) &amp; = f(t) u \\
+   f(tu) &amp; = f(t) u
+  \end{split} \tag{5}\]</span></span></p>
+<p>Let <span class="math inline">\(t = 1\)</span> and <span class="math inline">\(f(1) = c\)</span> then the solution to <a href="#eq-cauchy-functional" class="quarto-xref">Equation&nbsp;1</a> is <span class="math inline">\(f(x) = cx\)</span> where <span class="math inline">\(x \in \mathbb{R}\)</span>, assuming that <span class="math inline">\(f\)</span> is continuous on <span class="math inline">\(\mathbb{R}\)</span>.</p>
+<section id="sec-real-num-seq-rational-num" class="level3" data-number="3.5.1">
+<h3 data-number="3.5.1" class="anchored" data-anchor-id="sec-real-num-seq-rational-num"><span class="header-section-number">3.5.1</span> Representing real numbers as limits of rational sequences</h3>
+<p>Let <span class="math inline">\(u\)</span> be a real number. For each <span class="math inline">\(n \in \mathbb{P}\)</span>, define <span class="math inline">\(q_n = \frac{\lfloor nu \rfloor}{n}\)</span>, where <span class="math inline">\(\lfloor nu \rfloor\)</span> denotes the floor of <span class="math inline">\(nu\)</span>. That is, <span class="math inline">\(\lfloor nu \rfloor\)</span> is the unique integer satisfying:</p>
+<p><span class="math display">\[\lfloor nu \rfloor \leq nu &lt; \lfloor nu \rfloor + 1\]</span></p>
+<p>Therefore, <span class="math inline">\(nu - 1 &lt; \lfloor nu \rfloor\)</span> and <span class="math inline">\(\lfloor nu \rfloor \leq nu\)</span>, so <span class="math inline">\(nu - 1 &lt; \lfloor nu \rfloor \leq nu\)</span>. Thus:</p>
+<p><span class="math display">\[\begin{align*}
+\frac{nu - 1}{n} &amp; &lt; \frac{\lfloor nu \rfloor}{n} \leq u \\
+u - \frac{1}{n}  &amp; &lt; \frac{\lfloor nu \rfloor}{n} \leq u
+\end{align*}\]</span></p>
+<p>Since <span class="math inline">\(\lim_{n \to \infty} \left( u - \frac{1}{n} \right) = u\)</span> and <span class="math inline">\(\lim_{n \to \infty} u = u\)</span>, the squeeze theorem for real sequences (see <a href="#sec-squeeze-thm-real-seq" class="quarto-xref">Section&nbsp;3.5.1.1</a>) implies that <span class="math inline">\(\lim_{n \to \infty} \frac{\lfloor nu \rfloor}{n} = u\)</span>. Therefore, the sequence <span class="math inline">\((q_n)\)</span> converges to <span class="math inline">\(u\)</span>.</p>
+<p>To illustrate this result, consider the following examples:</p>
+<div id="exm-one-third" class="theorem example">
+<p><span class="theorem-title"><strong>Example 1 (<span class="math inline">\(u = \frac{1}{3}\)</span>)</strong></span> &nbsp;</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-exm-one-third" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-exm-one-third-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="index_files/figure-html/fig-exm-one-third-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-exm-one-third-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: <span class="math inline">\(q_n = \frac{\left\lfloor n\frac{1}{3} \right\rfloor}{n}\)</span>
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="exm-pi" class="theorem example">
+<p><span class="theorem-title"><strong>Example 2 (<span class="math inline">\(u = \pi\)</span>)</strong></span> &nbsp;</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-exm-pi" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-exm-pi-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="index_files/figure-html/fig-exm-pi-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-exm-pi-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: <span class="math inline">\(q_n = \frac{\lfloor n\pi \rfloor}{n}\)</span>
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<section id="sec-squeeze-thm-real-seq" class="level4" data-number="3.5.1.1">
+<h4 data-number="3.5.1.1" class="anchored" data-anchor-id="sec-squeeze-thm-real-seq"><span class="header-section-number">3.5.1.1</span> Squeeze theorem for real sequences</h4>
+<p>If <span class="math inline">\(\lim_{n \to \infty} q_n = u\)</span> it means that for all <span class="math inline">\(\varepsilon &gt; 0\)</span> it exists a positive integer <span class="math inline">\(N\)</span> such that for every positive integer <span class="math inline">\(n \geq N\)</span>, we have that <span class="math inline">\(|q_n - u| &lt; \varepsilon\)</span>. That is:</p>
+<p><span class="math display">\[\forall \varepsilon (\varepsilon &gt; 0 \Longrightarrow \exists N (N \in \mathbb{P} \land \forall n (n \in \mathbb{P} \land n \geq N \Longrightarrow |q_n - u| &lt; \varepsilon)))\]</span></p>
+<p>For example, if <span class="math inline">\(q_n = c\)</span> then <span class="math inline">\(\lim_{n \to \infty} q_n = c\)</span> (see <a href="#exm-constant" class="quarto-xref">Example&nbsp;3</a>). Let <span class="math inline">\(N = 1\)</span> then <span class="math inline">\(q_N = c\)</span> and for <span class="math inline">\(n \geq N\)</span> we have <span class="math inline">\(q_n = c\)</span>. Therefore:</p>
+<p><span class="math display">\[\begin{equation*}
+    \begin{split}
+        0 &lt; \varepsilon &amp; \iff |c - c| &lt; \varepsilon \\
+        &amp; \iff |q_N - c| &lt; \varepsilon \\
+        &amp; \iff |q_n - c| = |q_N - c| &lt; \varepsilon \\
+        &amp; \iff |q_n - c| &lt; \varepsilon \\
+    \end{split}
+\end{equation*}\]</span></p>
+<div id="exm-constant" class="theorem example">
+<p><span class="theorem-title"><strong>Example 3 (<span class="math inline">\(q_n = 2\)</span>)</strong></span> &nbsp;</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-exm-constant" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-exm-constant-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="index_files/figure-html/fig-exm-constant-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-exm-constant-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: <span class="math inline">\(q_n = 2\)</span>
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p>Also, if <span class="math inline">\(q_n = \frac{1}{n}\)</span> then <span class="math inline">\(\lim_{n \to \infty} q_n = 0\)</span> (see <a href="#exm-1-n" class="quarto-xref">Example&nbsp;4</a>). Let <span class="math inline">\(N = \left\lfloor \frac{1}{\varepsilon} \right\rfloor + 1\)</span> and for <span class="math inline">\(n \geq N\)</span> we have that <span class="math inline">\(q_n = \frac{1}{n}\)</span>. Therefore:</p>
+<p><span class="math display">\[\begin{equation*}
+    \begin{split}
+        \frac{1}{\varepsilon} &lt;  \left\lfloor \frac{1}{\varepsilon} \right\rfloor + 1 &amp; \iff \frac{1}{\varepsilon} &lt; N \\
+        &amp; \iff \frac{1}{N} &lt; \varepsilon \\
+        &amp; \iff \frac{1}{n} \leq \frac{1}{N} &lt; \varepsilon \\
+        &amp; \iff \frac{1}{n} &lt; \varepsilon \\
+        &amp; \iff \left| \frac{1}{n} - 0 \right| &lt; \varepsilon \\
+        &amp; \iff \left| q_n - 0 \right| &lt; \varepsilon
+    \end{split}
+\end{equation*}\]</span></p>
+<div id="exm-1-n" class="theorem example">
+<p><span class="theorem-title"><strong>Example 4 (<span class="math inline">\(q_n = \frac{1}{n}\)</span>)</strong></span> &nbsp;</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-exm-1-n" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-exm-1-n-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="index_files/figure-html/fig-exm-1-n-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-exm-1-n-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: <span class="math inline">\(q_n = \frac{1}{n}\)</span>
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p>Now, let <span class="math inline">\(p_n \leq q_n \leq r_n\)</span> and <span class="math inline">\(\lim_{n \to \infty} p_n = u = \lim_{n \to \infty} r_n\)</span>. Then:</p>
+<ol type="1">
+<li><p>For all <span class="math inline">\(\varepsilon &gt; 0\)</span> there is some <span class="math inline">\(N_p\)</span> such that <span class="math inline">\(n \geq N_p\)</span> where <span class="math inline">\(|p_n - u| &lt; \epsilon\)</span>. So <span class="math inline">\(u - \varepsilon &lt; p_n &lt; u + \varepsilon\)</span>.</p></li>
+<li><p>For all <span class="math inline">\(\varepsilon &gt; 0\)</span> there is some <span class="math inline">\(N_r\)</span> such that <span class="math inline">\(n \geq N_r\)</span> where <span class="math inline">\(|r_n - u| &lt; \epsilon\)</span>. So <span class="math inline">\(u - \varepsilon &lt; r_n &lt; u + \varepsilon\)</span>.</p></li>
+</ol>
+<p>Let <span class="math inline">\(N = max \{ N_p, N_r \}\)</span> then because <span class="math inline">\(p_n \leq q_n \leq r_n\)</span>, <span class="math inline">\(u - \varepsilon &lt; p_n\)</span> and <span class="math inline">\(r_n &lt; u + \varepsilon\)</span> we have that <span class="math inline">\(u - \varepsilon &lt; q_n &lt; u + \varepsilon\)</span>. So, for all <span class="math inline">\(\varepsilon &gt; 0\)</span> there is some <span class="math inline">\(N\)</span> such that <span class="math inline">\(n \geq N\)</span> where <span class="math inline">\(|q_n - u| &lt; \varepsilon\)</span>. Therefore, <span class="math inline">\(\lim_{n \to \infty} q_n = u\)</span>.</p>
+</section>
+</section>
+<section id="sec-change-variables-limits-real-functions" class="level3" data-number="3.5.2">
+<h3 data-number="3.5.2" class="anchored" data-anchor-id="sec-change-variables-limits-real-functions"><span class="header-section-number">3.5.2</span> Change of variables in limits for real functions</h3>
+<p>Under what conditions we can apply a change of variables to calculate a limit as in <a href="#eq-f-continuous-on-r" class="quarto-xref">Equation&nbsp;5</a>? First, we need to formalize the notion of <span class="math inline">\(\lim_{x \to \infty} f(x) = L\)</span> (See <span class="citation" data-cites="protter_first_1997">Protter (<a href="#ref-protter_first_1997" role="doc-biblioref">1997</a>)</span>, pp.&nbsp;48-54) and use another definition of continuous function using <span class="math inline">\(\epsilon\)</span> and <span class="math inline">\(\delta\)</span> that is equivalent to <a href="#def-f-continuous-limits" class="quarto-xref">Definition&nbsp;1</a> (See <span class="citation" data-cites="protter_first_1997">Protter (<a href="#ref-protter_first_1997" role="doc-biblioref">1997</a>)</span>, pp.&nbsp;30-35).</p>
+<div id="def-limit-at-infinity" class="theorem definition">
+<p><span class="theorem-title"><strong>Definition 2 (Limit at infinity)</strong></span> If <span class="math inline">\(\lim_{x \to \infty} f(x) = L\)</span> it means that for all <span class="math inline">\(\varepsilon &gt; 0\)</span> it exists a number <span class="math inline">\(N &gt; 0\)</span> such that <span class="math inline">\(|f(x) - L| &lt; \varepsilon\)</span> for all <span class="math inline">\(x &gt; N\)</span>. That is:</p>
+<p><span class="math display">\[\forall \varepsilon (\varepsilon &gt; 0 \Longrightarrow \exists N (N &gt; 0 \land \forall x (x \in \mathbb{R} \land x &gt; N \Longrightarrow |f(x) - L| &lt; \varepsilon)))\]</span></p>
+</div>
+<div id="def-f-continuous-epsilon-delta" class="theorem definition">
+<p><span class="theorem-title"><strong>Definition 3 (Continuity using <span class="math inline">\(\epsilon\)</span> and <span class="math inline">\(\delta\)</span>)</strong></span> A function <span class="math inline">\(f\)</span> is continuous at a point <span class="math inline">\(u \in \mathbb{R}\)</span> if and only if:</p>
+<ol type="1">
+<li>The point <span class="math inline">\(u\)</span> is in an open interval <span class="math inline">\(I\)</span> contained in <span class="math inline">\(\mathbb{R}\)</span></li>
+<li>For all <span class="math inline">\(\varepsilon &gt; 0\)</span> it exists <span class="math inline">\(\delta &gt; 0\)</span> such that if <span class="math inline">\(|x - u| &lt; \delta\)</span> then <span class="math inline">\(|f(x) - f(u)| &lt; \varepsilon\)</span></li>
+</ol>
+</div>
+<p>Second, we can establish and prove the following theorem, then apply it to <a href="#eq-f-continuous-on-r" class="quarto-xref">Equation&nbsp;5</a>:</p>
+<div id="thm-change-variables-limits" class="theorem">
+<p><span class="theorem-title"><strong>Theorem 1 (Change of variables in limits)</strong></span> Let <span class="math inline">\(\lim_{s \to w} f(s)\)</span> and <span class="math inline">\(\lim_{n \to \infty} f(q(n))\)</span> where <span class="math inline">\(\lim_{n \to \infty} q(n) = w\)</span>. If <span class="math inline">\(f\)</span> is continuous at <span class="math inline">\(w\)</span> then <span class="math inline">\(\lim_{s \to w} f(s) = \lim_{n \to \infty} f(q(n))\)</span>.</p>
+</div>
+<div class="proof">
+<p><span class="proof-title"><em>Proof</em>. </span></p>
+<ol type="1">
+<li><p>Because <span class="math inline">\(f\)</span> is continuous at <span class="math inline">\(w\)</span> by <a href="#def-f-continuous-limits" class="quarto-xref">Definition&nbsp;1</a> <span class="math inline">\(\lim_{s \to w} f(s) = w\)</span>. Furthermore by <a href="#def-f-continuous-epsilon-delta" class="quarto-xref">Definition&nbsp;3</a> for all <span class="math inline">\(\varepsilon &gt; 0\)</span> it exists <span class="math inline">\(\delta &gt; 0\)</span> such that if <span class="math inline">\(|s - w| &lt; \delta\)</span> then <span class="math inline">\(|f(s) - f(w)| &lt; \varepsilon\)</span>.</p></li>
+<li><p>If <span class="math inline">\(s = q(n)\)</span> then by 1. for all <span class="math inline">\(\varepsilon &gt; 0\)</span> it exists <span class="math inline">\(\delta &gt; 0\)</span> such that if <span class="math inline">\(|q(n) - w| &lt; \delta\)</span> then <span class="math inline">\(|f(q(n)) - f(w)| &lt; \varepsilon\)</span>.</p></li>
+<li><p>Because <span class="math inline">\(\lim_{n \to \infty} q(n) = w\)</span> by <a href="#def-limit-at-infinity" class="quarto-xref">Definition&nbsp;2</a> for all <span class="math inline">\(\varepsilon^* &gt; 0\)</span> it exists a number <span class="math inline">\(N &gt; 0\)</span> such that <span class="math inline">\(|q(n) - w| &lt; \varepsilon^*\)</span> for all <span class="math inline">\(n &gt; N\)</span>.</p></li>
+<li><p>Letting <span class="math inline">\(\varepsilon^* = \delta\)</span> and using 3. and 2. we have that for all <span class="math inline">\(\varepsilon &gt; 0\)</span> it exists a number <span class="math inline">\(N &gt; 0\)</span> such that <span class="math inline">\(|f(q(n)) - f(w)| &lt; \varepsilon\)</span> for all <span class="math inline">\(n &gt; N\)</span>. Therefore <span class="math inline">\(\lim_{n \to \infty} f(q(n)) = w\)</span>.</p></li>
+<li><p>By 1. and 4. <span class="math inline">\(\lim_{s \to w} f(s) = \lim_{n \to \infty} f(q(n))\)</span>.</p></li>
+</ol>
+</div>
+</section>
+</section>
+</section>
+<section id="conclusion" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Conclusion</h1>
+<p>While advances since Cauchy’s proposed solution <span class="citation" data-cites="cauchy_cours_2009">(<a href="#ref-cauchy_cours_2009" role="doc-biblioref">Cauchy, 2009, Chapter 5</a>, pp.&nbsp;103-106)</span> have yielded weaker assumptions and alternative conditions for <span class="math inline">\(f\)</span>, studying Cauchy’s original approach remains a valuable introduction to functional equations. Interested readers are invited to explore this fascinating topic further in <span class="citation" data-cites="aczel_lectures_1966">(<a href="#ref-aczel_lectures_1966" role="doc-biblioref">Aczél, 1966</a>)</span>.</p>
+</section>
+<section id="references" class="level1" data-number="5">
+
+
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">5 References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-aczel_lectures_1966" class="csl-entry" role="listitem">
+Aczél, J. (1966). <em>Lectures on functional equations and their applications</em>. Academic Press.
+</div>
+<div id="ref-cauchy_cours_2009" class="csl-entry" role="listitem">
+Cauchy, A. L. (2009). <em>Cours d’analyse de l’école <span>Royale</span> <span>Polytechnique</span></em>. Cambridge University Press. <a href="https://doi.org/10.1017/CBO9780511693328">https://doi.org/10.1017/CBO9780511693328</a>
+</div>
+<div id="ref-protter_first_1997" class="csl-entry" role="listitem">
+Protter, M. H. (1997). <em>A <span>First</span> <span>Course</span> in <span>Real</span> <span>Analysis</span></em> (2nd ed). Springer New York. <a href="https://doi.org/10.1007/978-1-4419-8744-0">https://doi.org/10.1007/978-1-4419-8744-0</a>
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>It is traditional to write <span class="math inline">\(q_n\)</span> instead of <span class="math inline">\(q(n)\)</span> where <span class="math inline">\(q_n\)</span> is a function whose domain is the set of positive integers.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/luifrancgom\.github\.io\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p><span class="faux-block"><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2024 Luis Francisco Gómez López</span> <span class="faux-block">Licensed under <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons CC BY 4.0</a></span> <span class="faux-block"> <i class="fa-brands fa-github" aria-label="github"></i> <a href="https://github.com/luifrancgom/luifrancgom.github.io" target="_blank" rel="noopener noreferrer">Source code</a></span></p>
+</div>   
+    <div class="nav-footer-center">
+<p><span class="faux-block"><i class="fa-brands fa-orcid" aria-label="orcid"></i> <strong>ORCID</strong> <a href="https://orcid.org/0000-0002-2877-9015" target="_blank" rel="noopener noreferrer">0000-0002-2877-9015</a></span></p>
+</div>
+    <div class="nav-footer-right">
+<p><span class="faux-block"> Designed with <i class="fa-solid fa-heart" aria-label="heart"></i> and <i class="fa-solid fa-brain" aria-label="brain"></i> </span> <span class="faux-block">Build with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <iconify-icon inline="" icon="simple-icons:quarto" aria-label="Icon quarto from simple-icons Iconify.design set." title="Icon quarto from simple-icons Iconify.design set."></iconify-icon></span></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
