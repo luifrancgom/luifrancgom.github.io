@@ -14,6 +14,9 @@ $footer-bg: $dark-black-blue;
 $footer-fg: $bright-orange;
 $border-style: 0.5px solid $gray;
 
+// Levels
+$levels: 6;
+
 /*-- scss:rules --*/
 
 // Header
@@ -38,9 +41,23 @@ $border-style: 0.5px solid $gray;
  }
 }
 
+// Quarto References Container
+#quarto-appendix {
+  background-color: $content-bg !important;
+}
+
 // Paragraph About
 .quarto-about-jolla p {
   text-align: justify;
+}
+
+// Paragraph Sections
+@for $i from 1 through $levels {
+  section.level#{$i} {
+    p {
+      text-align: justify;
+    }
+  }
 }
 
 // Footer
