@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Julio Cortazar indicaba que un escritor argentino, muy amigo del boxeo, le dijo alguna vez que en el combate que se entablaba entre un texto apasionante y su lector, la novela ganaba siempre por puntos, mientras que el cuento debía ganar por knockout. Aquí encontrarán la práctica que he echo de ésta actividad.">
 
-<title>Tales – Luis Francisco Gómez López (aka luifrancgom)</title>
+<title>Cuentos – Luis Francisco Gómez López (aka luifrancgom)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../images/fox_gold.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,15 +74,73 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <meta property="og:title" content="Luis Francisco Gómez López">
-<meta property="og:description" content="Economist interested in Data Science | Learning: Statistical Learning, R-πthon, Microeconomics and Macroeconomics">
+<meta property="og:description" content="Julio Cortazar indicaba que un escritor argentino, muy amigo del boxeo, le dijo alguna vez que en el combate que se entablaba entre un texto apasionante y su lector, la novela ganaba siempre por puntos, mientras que el cuento debía ganar por knockout. Aquí encontrarán la práctica que he echo de ésta actividad.">
 <meta property="og:image" content="https://luifrancgom.github.io/docs/tales/images/fox_gold.png">
 <meta property="og:site_name" content="luifrancgom">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:title" content="Luis Francisco Gómez López">
-<meta name="twitter:description" content="Economist interested in Data Science | Learning: Statistical Learning, R-πthon, Microeconomics and Macroeconomics">
+<meta name="twitter:description" content="Julio Cortazar indicaba que un escritor argentino, muy amigo del boxeo, le dijo alguna vez que en el combate que se entablaba entre un texto apasionante y su lector, la novela ganaba siempre por puntos, mientras que el cuento debía ganar por knockout. Aquí encontrarán la práctica que he echo de ésta actividad.">
 <meta name="twitter:image" content="https://luifrancgom.github.io/docs/tales/images/fox_gold.png">
 <meta name="twitter:image:alt" content="A circle logo featuring a gold fox design">
 <meta name="twitter:creator" content="@luifrancgom">
@@ -185,9 +246,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Tales</h1>
+<h1 class="title">Cuentos</h1>
 </div>
 
+<div>
+  <div class="description">
+    <p>Julio Cortazar indicaba que un escritor argentino, muy amigo del boxeo, le dijo alguna vez que en el combate que se entablaba entre un texto apasionante y su lector, la novela ganaba siempre por puntos, mientras que el cuento debía ganar por knockout. Aquí encontrarán la práctica que he echo de ésta actividad.</p>
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -202,11 +268,101 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Pending</p>
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1738540800000" data-listing-file-modified-sort="1738436079487" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="535">
+<div class="thumbnail">
+<p><a href="../../docs/tales/003_mi_hermano.html" class="no-external"></a></p><a href="../../docs/tales/003_mi_hermano.html" class="no-external">
+<p><img loading="lazy" src="../../docs/tales/images/dante_gabriel_rossetti_how_they_met_themselves_1851-60.jpg" class="thumbnail-image"></p>
+</a><p><a href="../../docs/tales/003_mi_hermano.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../docs/tales/003_mi_hermano.html" class="no-external">Mi hermano</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../docs/tales/003_mi_hermano.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../../docs/tales/003_mi_hermano.html" class="no-external">Su rostro imitaba los rasgos de mi cara como los espejos en la penumbra esconden los detalles de todos nuestros ancestros directos y nuestra posible descendencia. La…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../docs/tales/003_mi_hermano.html" class="no-external">
+<div class="listing-date">
+2025-02-03
+</div>
+<div class="listing-author">
+Luis Francisco Gómez López
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1738454400000" data-listing-file-modified-sort="1738436079487" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="422">
+<div class="thumbnail">
+<p><a href="../../docs/tales/002_yaguarete_preto.html" class="no-external"></a></p><a href="../../docs/tales/002_yaguarete_preto.html" class="no-external">
+<p><img loading="lazy" src="../../docs/tales/images/onca_panther_ai_generated.jpg" class="thumbnail-image"></p>
+</a><p><a href="../../docs/tales/002_yaguarete_preto.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../docs/tales/002_yaguarete_preto.html" class="no-external">Yaguareté Preto</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../docs/tales/002_yaguarete_preto.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../../docs/tales/002_yaguarete_preto.html" class="no-external">Cuando partió de su territorio natal emprendió el viaje recorriendo durante largas noches y días las venas de la selva Amazónica hacia Mato Grosso do Sul a través del Gran…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../docs/tales/002_yaguarete_preto.html" class="no-external">
+<div class="listing-date">
+2025-02-02
+</div>
+<div class="listing-author">
+Luis Francisco Gómez López
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1738368000000" data-listing-file-modified-sort="1738436079487" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="281">
+<div class="thumbnail">
+<p><a href="../../docs/tales/001_valentina.html" class="no-external"></a></p><a href="../../docs/tales/001_valentina.html" class="no-external">
+<p><img loading="lazy" src="../../docs/tales/images/les_demoiselles_davignon.jpg" class="thumbnail-image"></p>
+</a><p><a href="../../docs/tales/001_valentina.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../docs/tales/001_valentina.html" class="no-external">Valentina</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../docs/tales/001_valentina.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../../docs/tales/001_valentina.html" class="no-external">Cuando el sol cae y las vías son más libres, la brisa es más fría y menos acogedora. Un paisaje de luces de neón cubre los callejones estrechos y oscuros en donde la sed de…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../docs/tales/001_valentina.html" class="no-external">
+<div class="listing-date">
+2025-02-01
+</div>
+<div class="listing-author">
+Luis Francisco Gómez López
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
