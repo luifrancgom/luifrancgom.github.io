@@ -1,0 +1,22 @@
+---
+title: "Mi hermano"
+author: Luis Francisco Gómez López
+date: 2025-02-03
+image: images/dante_gabriel_rossetti_how_they_met_themselves_1851-60.jpg
+---
+
+```{=html}
+<style>
+  p { 
+    text-align: justify;
+  }
+</style>
+```
+
+Su rostro imitaba los rasgos de mi cara como los espejos en la penumbra esconden los detalles de todos nuestros ancestros directos y nuestra posible descendencia. La duplicidad, el elemento fundamental de la simetría y la locura, podría ser la explicación metafísica ante aquel parecido pero mi inclinación científica me impulsó a suponer que la característica monárquica de la genética era una respuesta más que suficiente pues al fin y al cabo me informaron por correo, a través de una carta en mi buzón, que él era Mi hermano.
+
+Mi madre había muerto por ahogamiento y asfixia debido a causas aún inexplicables y aquel extraño y yo éramos sus únicos descendientes directos y familiares cercanos. El hecho causó gran conmoción debido a las circunstancias misteriosas de su deceso y a la enorme cantidad de dinero que debía ser transferida según lo plasmaba el Derecho de Sucesiones. Inmediatamente surgieron los rumores de un posible homicidio y las pesquisas policiales señalaron mi nombre como principal sospechoso. Sin embargo, durante la investigación no recuerdo que se mencionara a Mi hermano del cual no conocía en ese momento sobre su existencia.
+
+Debido a las particularidades que el caso debidamente ameritaba y a las diligencias puramente burocráticos lo invite a que se quedara en mi casa más por sospecha que por simpatía y gentileza. Si yo y él éramos los únicos herederos quién más podría ser el verdadero asesino encubierto con un motivo tan tangible y preciso. Mi objetivo estaba claro – debía conseguir evidencia certera –. Temprano en la mañana durante su aparente ausencia busque en su equipaje la prueba fehaciente. Al principio registré con insistencia sin encontrar lo que buscaba, pero más tarde, escondido en un doble fondo, descubrí un tratado sobre la Strychnos Toxifera y una daga rondel de San Jorge con empuñadura de plata. Recordé inmediatamente en lengua macushi, cuando era soldado en las Guyanas, como el poder del Curare causaba una parálisis progresiva y finalmente la muerte por asfixia. Un dolor en la nuca, parecido a un golpe, nublo mi mirada. Mi cuerpo soportó el ataque y pude clavar tres veces en alguien la daga circular en el costado izquierdo de sus costillas.
+
+Cuando desperté Mi hermano yacía muerto posiblemente por la perforación de un pulmón y los daños internos de las estocadas. Debido a mi calidad como principal sospechoso decidí esconder su cuerpo de tal manera que su súbita desaparición apuntara la mirada de la policía hacia la dirección correcta, ya que él claramente había sido el homicida que me había arrebatado a Mi madre. Arrastre el cuerpo hacia el jardín y en un hoyo cubierto por el follaje de un almendro lo sepulte. Retorne a la casa para deshacerme de sus pertenencias, pero el dolor en una de mis costillas detuvo mi marcha. Al entrar y buscar su equipaje solo encontré un desorden de fotografías, cartas y recuerdos de mi estancia como soldado en las Guyanas y la daga ensangrentada que me había obsequiado el ejército. Nunca encontré su equipaje y por más que cavé en todo el jardín no pude hallar cuerpo alguno. Ahora sé que -La duplicidad es el sinónimo de mi locura-.

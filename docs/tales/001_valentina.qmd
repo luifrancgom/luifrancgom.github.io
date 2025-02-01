@@ -1,0 +1,20 @@
+---
+title: "Valentina"
+author: Luis Francisco Gómez López
+date: 2025-02-01
+image: images/les_demoiselles_davignon.jpg
+---
+
+```{=html}
+<style>
+  p { 
+    text-align: justify;
+  }
+</style>
+```
+
+Cuando el sol cae y las vías son más libres, la brisa es más fría y menos acogedora. Un paisaje de luces de neón cubre los callejones estrechos y oscuros en donde la sed de lujuria tiene su precio. En una esquina de aquellos lugares, un ángel caído espera pacientemente a su dueño pasajero. Unas miradas a su izquierda, a pocos metros de su acera, se introducen en su vestimenta roja y ligera, provocando que cualquier espectador contemple a corta imaginación su delicada piel dorada. Su atractivo rostro refleja su carácter fuerte y aunque no lo parezca siempre selecciona minuciosamente a sus clientes. No de cualquiera se deja dominar a su antojo, pues sus delicados movimientos sólo son otorgados a los que más valoran su sofisticada elegancia y fina belleza.
+
+El individuo indicado finalmente se acerca y su cortejo, junto a su codiciada riqueza, le permiten sujetar con fuerza aquellas amplias caderas. Apenas se requiere un paso al frente hacia el lugar adecuado para consumar lo previamente acordado y comprar aquel amor tan fugaz y perecedero. Inmediatamente un fuego ardiente recorre el ambiente, pero los besos, caricias y abrazos son ínfimos, artificiales y pasajeros. Los lamentos de pasión solo son ofrecidos al cliente para aumentar su ego y hombría.
+
+Cuando la calma retorna y el silencio recorre sus rostros, ambos se duchan, se visten y comparten un café juntos. Él le entrega una buena suma de dinero no sin antes preguntarle por su verdadera identidad y posible destino. Una suave voz expresa un simple adiós y le susurra al oído –Aunque soy mujer tú sabes quién soy, mi verdadero nombre es Valentino–.

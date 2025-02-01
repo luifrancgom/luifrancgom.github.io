@@ -1,0 +1,22 @@
+---
+title: "Yaguareté Preto"
+author: Luis Francisco Gómez López
+date: 2025-02-02
+image: images/onca_panther_ai_generated.jpg
+---
+
+```{=html}
+<style>
+  p { 
+    text-align: justify;
+  }
+</style>
+```
+
+Cuando partió de su territorio natal emprendió el viaje recorriendo durante largas noches y días las venas de la selva Amazónica hacia Mato Grosso do Sul a través del Gran Chaco y el Pantanal en donde él siempre ha sido el dueño y gran señor de la selva. Su naturaleza y armas de caza le permitieron sobrevivir comiendo armadillos y pacas no sin antes enfrentarse a los pálidos y rayados félidos que alguna vez abundaron en la espesura y densa vegetación de la selva Amazónica y que él consideraba sus más cercanos enemigos y hermanos.
+
+Él era el último de su clase nativa caracterizada por su piel oscura y moteada como el color de los cimarrones de los Quilombos que se escondían cerca de la ribera de los ríos. El olor del capibara y los pecaríes siempre rondaban sus sueños y acompañaban sus caminatas crepusculares en donde los cazaba y emboscaba para calmar el hambre matutina. Nunca conoció el amor paternal pero su madre le enseñó el arte de la caza y a detectar el movimiento de las presas a grandes distancias. El hombre blanco era su único rival pues las poblaciones indígenas de la zona lo consideraban una criatura mágica por su fortaleza y andar sigiloso durante la caza.
+
+En las sierras de Bodoquena en los bosques de yerba mate en Mato Grosso do Sul estableció su territorio después del largo viaje. La zona cubría buena parte de las mesetas y planicies al este de la región en donde los colonos se dedicaban a la ganadería y la crianza de puercos, patos y gallinas. Tal vez esta última situación selló su destino y terminó con la extinción de su raza. Tras la guerra del Acre entre Brasil y Bolivia más y más colonizadores penetraron la selva virgen con sus rastrillos, machetes, azadones y palas con el ánimo de establecer granjas productivas en tierras donde solo la maleza se puede considerar un cultivo.
+
+El sabor de la carne de novillo y la inocencia de aquellos animales de granja pronto se convirtieron en platos de su dieta diaria. No tardaron en surgir los rumores de un cazador nativo con piel oscura que acechaba las granjas que limitaban con el territorio salvaje. En uno de los amaneceres dedicados a la caza el cazador fue cazado cuando una bala se enterró en su pecho. Los pasquines locales se limitaron a informar –Un jaguar melánico ha sido cazado y encontrado responsable de los ataques a las granjas –.

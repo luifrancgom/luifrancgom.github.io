@@ -1,5 +1,13 @@
 ---
-title: "Tales"
+title: "Cuentos"
+description: |
+  Julio Cortazar indicaba que un escritor argentino, muy amigo del boxeo, le dijo alguna vez que en el combate que se entablaba entre un texto apasionante y su lector, la novela ganaba siempre por puntos, mientras que el cuento debía ganar por knockout. Aquí encontrarán la práctica que he echo de ésta actividad.
+listing: 
+  contents: 
+    - 001_valentina.qmd
+    - 002_yaguarete_preto.qmd
+    - 003_mi_hermano.qmd
+  sort:
+    - "date desc" 
+date-format: iso
 ---
-
-Pending
