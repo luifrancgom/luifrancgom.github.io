@@ -1,0 +1,24 @@
+---
+title: "The number sense"
+author: Luis Francisco Gómez López
+date: 2025-02-08
+image: images/tally_stick_ai_generated.jpg
+---
+
+```{=html}
+<style>
+  p { 
+    text-align: justify;
+  }
+</style>
+```
+
+When I was four years old, I entered kindergarten. I remember an exercise where we had to fill a box with the numbers from 1 to 99 in order. The box already contained some numbers as guidance.
+
+When I finished the exercise (I honestly don't remember if I did it correctly), I was intrigued by the number after 99. I was shy, but I raised my hand and asked the teacher (a woman) what the next number was. She told me it was 100 but that I didn't need to worry about it because 99 was the last number required for the exercise. However, I didn't understand how she knew that!
+
+When I got home, I asked my mother what the number after 100 was. She told me it was 101. Then I asked the same question for 102, 103, 104, 105, 106, and so on. I began to understand, but when we reached 199, I had the same problem. So, I asked again and again. Finally, she got tired and refused to answer.
+
+A few months ago, my mother (who is a professor at Universidad Nacional de Colombia in Bogotá) was reviewing some global economic indicators when she came across the world's gross domestic product (GDP) in Colombian pesos! She called me and asked me what that quantity was called.
+
+I immediately remembered the day I asked my teacher about the next number, and -I finally understood the difficulty I had had-.

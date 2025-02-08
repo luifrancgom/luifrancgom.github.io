@@ -7,7 +7,8 @@ listing:
     - 001_valentina.qmd
     - 002_yaguarete_preto.qmd
     - 003_mi_hermano.qmd
+    - 004_the_number_sense.qmd
   sort:
-    - "date desc" 
+    - "date" 
 date-format: iso
 ---
