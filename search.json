@@ -21,44 +21,9 @@
     "text": "Su rostro imitaba los rasgos de mi cara como los espejos en la penumbra esconden los detalles de todos nuestros ancestros directos y nuestra posible descendencia. La duplicidad, el elemento fundamental de la simetría y la locura, podría ser la explicación metafísica ante aquel parecido pero mi inclinación científica me impulsó a suponer que la característica monárquica de la genética era una respuesta más que suficiente pues al fin y al cabo me informaron por correo, a través de una carta en mi buzón, que él era Mi hermano.\nMi madre había muerto por ahogamiento y asfixia debido a causas aún inexplicables y aquel extraño y yo éramos sus únicos descendientes directos y familiares cercanos. El hecho causó gran conmoción debido a las circunstancias misteriosas de su deceso y a la enorme cantidad de dinero que debía ser transferida según lo plasmaba el Derecho de Sucesiones. Inmediatamente surgieron los rumores de un posible homicidio y las pesquisas policiales señalaron mi nombre como principal sospechoso. Sin embargo, durante la investigación no recuerdo que se mencionara a Mi hermano del cual no conocía en ese momento sobre su existencia.\nDebido a las particularidades que el caso debidamente ameritaba y a las diligencias puramente burocráticos lo invite a que se quedara en mi casa más por sospecha que por simpatía y gentileza. Si yo y él éramos los únicos herederos quién más podría ser el verdadero asesino encubierto con un motivo tan tangible y preciso. Mi objetivo estaba claro – debía conseguir evidencia certera –. Temprano en la mañana durante su aparente ausencia busque en su equipaje la prueba fehaciente. Al principio registré con insistencia sin encontrar lo que buscaba, pero más tarde, escondido en un doble fondo, descubrí un tratado sobre la Strychnos Toxifera y una daga rondel de San Jorge con empuñadura de plata. Recordé inmediatamente en lengua macushi, cuando era soldado en las Guyanas, como el poder del Curare causaba una parálisis progresiva y finalmente la muerte por asfixia. Un dolor en la nuca, parecido a un golpe, nublo mi mirada. Mi cuerpo soportó el ataque y pude clavar tres veces en alguien la daga circular en el costado izquierdo de sus costillas.\nCuando desperté Mi hermano yacía muerto posiblemente por la perforación de un pulmón y los daños internos de las estocadas. Debido a mi calidad como principal sospechoso decidí esconder su cuerpo de tal manera que su súbita desaparición apuntara la mirada de la policía hacia la dirección correcta, ya que él claramente había sido el homicida que me había arrebatado a Mi madre. Arrastre el cuerpo hacia el jardín y en un hoyo cubierto por el follaje de un almendro lo sepulte. Retorne a la casa para deshacerme de sus pertenencias, pero el dolor en una de mis costillas detuvo mi marcha. Al entrar y buscar su equipaje solo encontré un desorden de fotografías, cartas y recuerdos de mi estancia como soldado en las Guyanas y la daga ensangrentada que me había obsequiado el ejército. Nunca encontré su equipaje y por más que cavé en todo el jardín no pude hallar cuerpo alguno. Ahora sé que -La duplicidad es el sinónimo de mi locura-."
   },
   {
-    "objectID": "docs/cv/cv_luifrancgom.html",
-    "href": "docs/cv/cv_luifrancgom.html",
-    "title": "Some stuff about me",
-    "section": "",
-    "text": "Some stuff about me\nEconomist and professor skilled in using \\(\\Re\\) and () \\(\\pi\\)-thon () for data science, including the tidyverse package ecosystem.\n\n\nEducation\n\n\n# A tibble: 2 × 5\n  what                          when  with                     where       why  \n  &lt;chr&gt;                         &lt;chr&gt; &lt;chr&gt;                    &lt;chr&gt;       &lt;lis&gt;\n1 Barchelor degree in economics 2009  Universidad de los Andes Bogota, Co… &lt;chr&gt;\n2 Master degree in economics    2012  Universidad de los Andes Bogota, Co… &lt;chr&gt;\n\n\n\n\nExperience\n\n\n# A tibble: 5 × 5\n  what                                                   when  with  where why  \n  &lt;chr&gt;                                                  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;lis&gt;\n1 Contractor                                             2011… Fund… Bogo… &lt;chr&gt;\n2 Contractor                                             2012… CAR … Bogo… &lt;chr&gt;\n3 Contractor                                             2012… CAR … Bogo… &lt;chr&gt;\n4 Part-time Auxiliar, Full-time occasional auxiliar, as… 2014… Univ… Caji… &lt;chr&gt;\n5 Contractor                                             2020  Inst… Bogo… &lt;chr&gt;\n\n\n\n\nPublications\n\n\n\n\n\n\n\n\n\nEvents\n\nEncuentro Internacional de Investigadores en Administración 2019 y III Congreso Iberoamericano de Investigación sobre MIPYME (FAEDPYME). Business Analitycs con R para E-research en Administración de Empresas.\nV Coloquio de Matemáticas Aplicadas. Universidad Militar Nueva Granada. Data Science Workflow with R: explaining the total fertility rate in countries as a case study.\n\n\n\nCertifications\n\n\nCertifications\n\nIssuing authority: DataCamp\n\nData Scientist with R Track. Issued May 2020 - No Expiration Date\nTidyverse Fundamentals with R Track. Issued: May 2020 - No Expiration Date\nR Programmer Track. Issued Feb 2020 - No Expiration Date.\n\nIssuing authority: Business Science\n\nData Science For Business With R. Issued: Feb 2020 - No Expiration Date\nBusiness Analysis With R. Issued: Jul 2019 - No Expiration Date\nPython for Data Science Automation. Issued: Mar 2024 - No Expiration Date."
-  },
-  {
-    "objectID": "docs/blog/index.html",
-    "href": "docs/blog/index.html",
-    "title": "Blog",
-    "section": "",
-    "text": "functional equations\n\n\n\nExploring the solution of the functional equation \\(f(x + y) = f(x) + f(y)\\) proposed initially by Augustin-Louis Cauchy\n\n\n\n\n\n2025-01-26\n\n\nLuis Francisco Gómez López\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "docs/blog/index.html#section",
-    "href": "docs/blog/index.html#section",
-    "title": "Blog",
-    "section": "",
-    "text": "functional equations\n\n\n\nExploring the solution of the functional equation \\(f(x + y) = f(x) + f(y)\\) proposed initially by Augustin-Louis Cauchy\n\n\n\n\n\n2025-01-26\n\n\nLuis Francisco Gómez López\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "docs/projects/index.html",
-    "href": "docs/projects/index.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Pending"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Luis Francisco Gómez López (aka luifrancgom)",
-    "section": "",
-    "text": "Hello Universe! I’m Pacho , Chico , Paco  or Pancho \nI’m an economist interested in data science. Nowadays, I’m learning statistical learning, \\(\\Re\\) () and \\(\\pi\\)-thon (), micro and macro economics.\nI’m also a professor in the undergraduate Business Administration academic program at the Distance Learning Faculty at Universidad Militar Nueva Granada (Cajicá, Colombia)"
-  },
-  {
-    "objectID": "docs/teaching/index.html",
-    "href": "docs/teaching/index.html",
-    "title": "Teaching",
+    "objectID": "docs/personal/index.html",
+    "href": "docs/personal/index.html",
+    "title": "Personal",
     "section": "",
     "text": "Pending"
   },
@@ -112,11 +77,53 @@
     "text": "Footnotes\n\n\nIt is traditional to write \\(q_n\\) instead of \\(q(n)\\) where \\(q_n\\) is a function whose domain is the set of positive integers.↩︎"
   },
   {
-    "objectID": "docs/personal/index.html",
-    "href": "docs/personal/index.html",
-    "title": "Personal",
+    "objectID": "docs/teaching/index.html",
+    "href": "docs/teaching/index.html",
+    "title": "Teaching",
     "section": "",
     "text": "Pending"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Luis Francisco Gómez López (aka luifrancgom)",
+    "section": "",
+    "text": "Hello Universe! I’m Pacho , Chico , Paco  or Pancho \nI’m an economist interested in data science. Nowadays, I’m learning statistical learning, \\(\\Re\\) () and \\(\\pi\\)-thon (), micro and macro economics.\nI’m also a professor in the undergraduate Business Administration academic program at the Distance Learning Faculty at Universidad Militar Nueva Granada (Cajicá, Colombia)"
+  },
+  {
+    "objectID": "docs/projects/index.html",
+    "href": "docs/projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Pending"
+  },
+  {
+    "objectID": "docs/blog/index.html",
+    "href": "docs/blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "functional equations\n\n\n\nExploring the solution of the functional equation \\(f(x + y) = f(x) + f(y)\\) proposed initially by Augustin-Louis Cauchy\n\n\n\n\n\n2025-01-26\n\n\nLuis Francisco Gómez López\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "docs/blog/index.html#section",
+    "href": "docs/blog/index.html#section",
+    "title": "Blog",
+    "section": "",
+    "text": "functional equations\n\n\n\nExploring the solution of the functional equation \\(f(x + y) = f(x) + f(y)\\) proposed initially by Augustin-Louis Cauchy\n\n\n\n\n\n2025-01-26\n\n\nLuis Francisco Gómez López\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "docs/cv/cv_luifrancgom.html",
+    "href": "docs/cv/cv_luifrancgom.html",
+    "title": "Some stuff about me",
+    "section": "",
+    "text": "Some stuff about me\nEconomist and professor skilled in using \\(\\Re\\) and () \\(\\pi\\)-thon () for data science, including the tidyverse package ecosystem.\n\n\nEducation\n\n\n# A tibble: 2 × 5\n  what                          when  with                     where       why  \n  &lt;chr&gt;                         &lt;chr&gt; &lt;chr&gt;                    &lt;chr&gt;       &lt;lis&gt;\n1 Barchelor degree in economics 2009  Universidad de los Andes Bogota, Co… &lt;chr&gt;\n2 Master degree in economics    2012  Universidad de los Andes Bogota, Co… &lt;chr&gt;\n\n\n\n\nExperience\n\n\n# A tibble: 5 × 5\n  what                                                   when  with  where why  \n  &lt;chr&gt;                                                  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;lis&gt;\n1 Contractor                                             2011… Fund… Bogo… &lt;chr&gt;\n2 Contractor                                             2012… CAR … Bogo… &lt;chr&gt;\n3 Contractor                                             2012… CAR … Bogo… &lt;chr&gt;\n4 Part-time Auxiliar, Full-time occasional auxiliar, as… 2014… Univ… Caji… &lt;chr&gt;\n5 Contractor                                             2020  Inst… Bogo… &lt;chr&gt;\n\n\n\n\nPublications\n\n\n\n\n\n\n\n\n\nEvents\n\nEncuentro Internacional de Investigadores en Administración 2019 y III Congreso Iberoamericano de Investigación sobre MIPYME (FAEDPYME). Business Analitycs con R para E-research en Administración de Empresas.\nV Coloquio de Matemáticas Aplicadas. Universidad Militar Nueva Granada. Data Science Workflow with R: explaining the total fertility rate in countries as a case study.\n\n\n\nCertifications\n\n\nCertifications\n\nIssuing authority: DataCamp\n\nData Scientist with R Track. Issued May 2020 - No Expiration Date\nTidyverse Fundamentals with R Track. Issued: May 2020 - No Expiration Date\nR Programmer Track. Issued Feb 2020 - No Expiration Date.\n\nIssuing authority: Business Science\n\nData Science For Business With R. Issued: Feb 2020 - No Expiration Date\nBusiness Analysis With R. Issued: Jul 2019 - No Expiration Date\nPython for Data Science Automation. Issued: Mar 2024 - No Expiration Date."
+  },
+  {
+    "objectID": "docs/tales/005_el_rey_en_su_castillo.html",
+    "href": "docs/tales/005_el_rey_en_su_castillo.html",
+    "title": "El rey en su castillo",
+    "section": "",
+    "text": "El graznido del cuervo, el día de su nacimiento, anunció su llegada. Pasaron los años y ya hecho hombre las voces en su mente le susurraron que sería el gran señor de las islas sagradas. No faltaron miles de seguidores y adeptos necesarios para alcanzar esta gloria. En una de las tantas batallas menores, un hacha rajó y se incrustó en su cabeza. Tuvo que escapar de la muerte, pero parte del metal se convirtió en su cráneo. Las voces se acrecentaron y le urgieron completar su destino. La batalla final fue ganada y pronto tuvo en aquellas tierras prometidas un enorme castillo.\nSin misericordia alguna y bajo su puño de hierro estableció un sistema estricto de orden y justicia. Salvo los sacerdotes de túnicas blancas, que constantemente lo vigilaban, la mayoría de los hombres se inclinaban ante su presencia previendo un posible castigo. Al principio adoraba recorrer las planicies, de las cuales era dueño y señor, persiguiendo a los potros salvajes que las habitaban. Incluso de vez en cuando perturbaba la vida tranquila de sus soberanas, ya sea por galanteo o por una orden directa. Sin embargo, a medida que el tiempo crecía su presencia se fue limitando al castillo donde deambulaba y vivía.\nUna mañana cualquiera, cuando observaba por la ventana, la magnificencia de su aislamiento y encierro, la realidad finalmente interrumpió su fantasía. Una mano malvada le ofreció unos cuantos azotes y él observó a lo lejos, sin ninguna esperanza, una puerta con letras de hierro que vilmente anunciaba -Manicomio La Inmaculada-."
   },
   {
     "objectID": "docs/tales/002_yaguarete_preto.html",
@@ -130,6 +137,6 @@
     "href": "docs/tales/index.html",
     "title": "Cuentos",
     "section": "",
-    "text": "Valentina\n\n\n\n\n\n\n\n\n\n\n\n2025-02-01\n\n\nLuis Francisco Gómez López\n\n\n\n\n\n\n\n\n\n\n\n\nYaguareté Preto\n\n\n\n\n\n\n\n\n\n\n\n2025-02-02\n\n\nLuis Francisco Gómez López\n\n\n\n\n\n\n\n\n\n\n\n\nMi hermano\n\n\n\n\n\n\n\n\n\n\n\n2025-02-03\n\n\nLuis Francisco Gómez López\n\n\n\n\n\n\n\n\n\n\n\n\nThe number sense\n\n\n\n\n\n\n\n\n\n\n\n2025-02-08\n\n\nLuis Francisco Gómez López\n\n\n\n\n\n\nNo matching items"
+    "text": "Valentina\n\n\n\n\n\n\n\n\n\n\n\n2025-02-01\n\n\nLuis Francisco Gómez López\n\n\n\n\n\n\n\n\n\n\n\n\nYaguareté Preto\n\n\n\n\n\n\n\n\n\n\n\n2025-02-02\n\n\nLuis Francisco Gómez López\n\n\n\n\n\n\n\n\n\n\n\n\nMi hermano\n\n\n\n\n\n\n\n\n\n\n\n2025-02-03\n\n\nLuis Francisco Gómez López\n\n\n\n\n\n\n\n\n\n\n\n\nThe number sense\n\n\n\n\n\n\n\n\n\n\n\n2025-02-08\n\n\nLuis Francisco Gómez López\n\n\n\n\n\n\n\n\n\n\n\n\nEl rey en su castillo\n\n\n\n\n\n\n\n\n\n\n\n2025-02-09\n\n\nLuis Francisco Gómez López\n\n\n\n\n\n\nNo matching items"
   }
 ]
