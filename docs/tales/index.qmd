@@ -8,6 +8,7 @@ listing:
     - 002_yaguarete_preto.qmd
     - 003_mi_hermano.qmd
     - 004_the_number_sense.qmd
+    - 005_el_rey_en_su_castillo.qmd
   sort:
     - "date" 
 date-format: iso

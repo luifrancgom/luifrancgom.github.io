@@ -1,0 +1,20 @@
+---
+title: "El rey en su castillo"
+author: Luis Francisco Gómez López
+date: 2025-02-09
+image: images/lear_in_the_storm_king_lear_act_iii_scene_ii.jpg
+---
+
+```{=html}
+<style>
+  p { 
+    text-align: justify;
+  }
+</style>
+```
+
+El graznido del cuervo, el día de su nacimiento, anunció su llegada. Pasaron los años y ya hecho hombre las voces en su mente le susurraron que sería el gran señor de las islas sagradas. No faltaron miles de seguidores y adeptos necesarios para alcanzar esta gloria. En una de las tantas batallas menores, un hacha rajó y se incrustó en su cabeza. Tuvo que escapar de la muerte, pero parte del metal se convirtió en su cráneo. Las voces se acrecentaron y le urgieron completar su destino. La batalla final fue ganada y pronto tuvo en aquellas tierras prometidas un enorme castillo.
+
+Sin misericordia alguna y bajo su puño de hierro estableció un sistema estricto de orden y justicia. Salvo los sacerdotes de túnicas blancas, que constantemente lo vigilaban, la mayoría de los hombres se inclinaban ante su presencia previendo un posible castigo. Al principio adoraba recorrer las planicies, de las cuales era dueño y señor, persiguiendo a los potros salvajes que las habitaban. Incluso de vez en cuando perturbaba la vida tranquila de sus soberanas, ya sea por galanteo o por una orden directa. Sin embargo, a medida que el tiempo crecía su presencia se fue limitando al castillo donde deambulaba y vivía.
+
+Una mañana cualquiera, cuando observaba por la ventana, la magnificencia de su aislamiento y encierro, la realidad finalmente interrumpió su fantasía. Una mano malvada le ofreció unos cuantos azotes y él observó a lo lejos, sin ninguna esperanza, una puerta con letras de hierro que vilmente anunciaba -Manicomio La Inmaculada-.
