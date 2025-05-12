@@ -1,18 +1,20 @@
 [
   {
-    "listing": "/docs/blog/index.html",
-    "items": [
-      "/docs/blog/2025/cauchy_basic_functional_equation/index.html"
-    ]
-  },
-  {
     "listing": "/docs/tales/index.html",
     "items": [
       "/docs/tales/001_valentina.html",
       "/docs/tales/002_yaguarete_preto.html",
       "/docs/tales/003_mi_hermano.html",
       "/docs/tales/004_the_number_sense.html",
-      "/docs/tales/005_el_rey_en_su_castillo.html"
+      "/docs/tales/005_el_rey_en_su_castillo.html",
+      "/docs/tales/006_el_legado_secreto.html",
+      "/docs/tales/007_abram.html"
+    ]
+  },
+  {
+    "listing": "/docs/blog/index.html",
+    "items": [
+      "/docs/blog/2025/cauchy_basic_functional_equation/index.html"
     ]
   }
 ]
