@@ -50,3 +50,8 @@ Also, if you want some inspiration or inspect the source code (**aka using someo
 
 -  Website: https://jadeyryan.com/
 -  Source code: https://github.com/jadeynryan/jadey_website
+
+## Sam Shanny-Csik
+
+-  Website: https://samanthacsik.github.io/
+-  Source code: https://github.com/samanthacsik/samanthacsik.github.io
